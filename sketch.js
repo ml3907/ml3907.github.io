@@ -4,24 +4,26 @@ function setup() {
 
 function draw() {
   background(51)
-  text("Welcome to the LAST semester!", 280, 240);
-  textSize(32);
+  text("Welcome to the LAST semester!", 150, 240);
+  textSize(100);
+  fill(150)
+
+  ellipse(280, 180, 50, 50);
   fill(255, 204, 0);
 
-  ellipse(280, 180, 40, 40);
+  ellipse(290, 230, 10, 10);
   fill(255);
 
-  ellipse(292, 230, 5, 5);
+  ellipse(300, 230, 10, 10);
   fill(255);
 
-  ellipse(308, 230, 5, 5);
-  fill(255);
-
-  arc(290, 200, 12, 12, 0, HALF_PI);
+  arc(290, 200, 30, 30, 0, PI);
   
-  if (mousePressed) {
-  	text(Hello);
-  	textSize(20);
+  if (mouseIsPressed) {
+  	fill('red');
+  } else {
   	fill(255);
-  }
+  } 
+    text(Hello);
+  	textSize(20);
 }
