@@ -13,9 +13,6 @@ function draw() {
   text("DATA VISUALIZATION!", 230, 240);
 
   fill(255);
-  ellipse(80, 130, 95, 100);
-    
-  fill(255);
   ellipse(65, 110, 18, 18);
   fill(255);
   ellipse(95, 110, 18, 18);
@@ -26,5 +23,6 @@ function draw() {
   ellipse(98, 113, 10, 10);
     
   noFill();
-  arc(80, 140, 40, 25, 0, PI)
+  stroke(255);
+  arc(80, 140, 40, 25, 0, PI);
 }
