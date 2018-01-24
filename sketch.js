@@ -1,29 +1,30 @@
 function setup() {
-  createCanvas(640, 480);
+  createCanvas(1280, 960);
 }
 
 function draw() {
-  background(51)
-  text("Welcome to the LAST semester!", 150, 240);
-  textSize(100);
-  fill(150)
+  background(30, 20, 55, 55)
 
-  ellipse(280, 180, 50, 50);
+  text("Welcome to ", 200, 480);
+  textSize(50);
+  fill(200);
+
+  text("DATA VISUALIZATION!", 500, 480);
   fill(255, 204, 0);
 
-  ellipse(290, 230, 10, 10);
+  ellipse(280, 180, 170, 180);
+  fill(255);
+    
+  ellipse(250, 150, 25, 25);
+  fill(255);
+  ellipse(310, 150, 25, 25);
   fill(255);
 
-  ellipse(300, 230, 10, 10);
-  fill(255);
-
-  arc(290, 200, 30, 30, 0, PI);
+  ellipse(254, 154, 14, 14);
+  fill(15);
+  ellipse(314, 154, 14, 14);
+  fill(15);
   
-  if (mouseIsPressed) {
-  	fill('red');
-  } else {
-  	fill(255);
-  } 
-    text(Hello);
-  	textSize(20);
+  noFill();
+  arc(280, 200, 70, 50, 0, PI)
 }
