@@ -1,5 +1,8 @@
+let angle = 0;
+
 function setup() {
   createCanvas(640, 480);
+  angleMode(DEGREES);
 }
 
 function draw() {
@@ -12,28 +15,38 @@ function draw() {
 
   fill(255, 204, 0);
   noStroke();
-  text("DATA VISUALIZATION!", 230, 240);
+  text("DATA VISUALIZATION!", 220, 240);
 
+  //these are the eyes.
   fill(255);
   ellipse(65, 110, 18, 18);
   fill(255);
   ellipse(95, 110, 18, 18);
   
+  //these are the eyeballs.
   fill(15);
   ellipse(68, 113, 10, 10);
   fill(15);
   ellipse(98, 113, 10, 10);
-    
+  
+  //this is the smiling mouth.  
   noFill();
   stroke(255);
   arc(80, 140, 40, 25, 0, PI);
 
+  //this is the current time.
   var h = hour();
   var m = minute();
   var s = second();
-  text("Current Time: " + h + " " + m + " " + s, 30, 380)
-  
-  var ma = map(s, 0, 60, 0, width);
-  rect(30, 420, s, 10)
+  text("Current Time: " + h + ": " + m + ": " + s, 30, 380)
+  noStroke();
+  textSize(10);
 
+  var ma = map(s, 0, 100, 0, width);
+  translate(250, 380);
+  rotate(angle);
+  fill(255);
+  rectMode(CENTER);
+  rect(250, 380, ma, 5);
+  angle = angle + 1;
 }
