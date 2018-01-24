@@ -40,8 +40,8 @@ function draw() {
   var m = minute();
   var s = second();
   textSize(10);
-  text("Current Time: " + h + ": " + m + ": " + s, 30, 380)
   noStroke();
+  text("Current Time: " + h + ": " + m + ": " + s, 30, 380)
 
   var ma = map(s, 0, 100, 0, width);
   fill(255, 204, 0);
