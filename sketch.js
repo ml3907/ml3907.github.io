@@ -1,30 +1,30 @@
 function setup() {
-  createCanvas(1280, 960);
+  createCanvas(640, 480);
 }
 
 function draw() {
   background(30, 20, 55, 55)
 
-  text("Welcome to ", 200, 480);
-  textSize(50);
   fill(200);
+  text("Welcome to ", 30, 240);
+  textSize(30);
 
-  text("DATA VISUALIZATION!", 500, 480);
   fill(255, 204, 0);
+  text("DATA VISUALIZATION!", 230, 240);
 
-  ellipse(280, 180, 170, 180);
   fill(255);
+  ellipse(80, 130, 95, 100);
     
-  ellipse(250, 150, 25, 25);
   fill(255);
-  ellipse(310, 150, 25, 25);
+  ellipse(65, 110, 18, 18);
   fill(255);
-
-  ellipse(254, 154, 14, 14);
-  fill(15);
-  ellipse(314, 154, 14, 14);
-  fill(15);
+  ellipse(95, 110, 18, 18);
   
+  fill(15);
+  ellipse(68, 113, 10, 10);
+  fill(15);
+  ellipse(98, 113, 10, 10);
+    
   noFill();
-  arc(280, 200, 70, 50, 0, PI)
+  arc(80, 140, 40, 25, 0, PI)
 }
