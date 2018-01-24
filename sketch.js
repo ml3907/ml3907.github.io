@@ -10,11 +10,12 @@ function draw() {
 
   fill(200);
   noStroke();
-  text("Welcome to ", 30, 240);
   textSize(30);
+  text("Welcome to ", 30, 240);
 
   fill(255, 204, 0);
   noStroke();
+  textSize(30);
   text("DATA VISUALIZATION!", 220, 240);
 
   //these are the eyes.
@@ -38,15 +39,11 @@ function draw() {
   var h = hour();
   var m = minute();
   var s = second();
+  textSize(10);
   text("Current Time: " + h + ": " + m + ": " + s, 30, 380)
   noStroke();
-  textSize(10);
 
   var ma = map(s, 0, 100, 0, width);
-  translate(250, 380);
-  rotate(angle);
-  fill(255);
-  rectMode(CENTER);
-  rect(250, 380, ma, 5);
-  angle = angle + 1;
+  fill(255, 204, 0);
+  rect(200, 380, ma, 5);
 }
