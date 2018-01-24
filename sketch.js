@@ -2,7 +2,6 @@ let angle = 0;
 
 function setup() {
   createCanvas(640, 480);
-  angleMode(DEGREES);
 }
 
 function draw() {
@@ -39,11 +38,11 @@ function draw() {
   var h = hour();
   var m = minute();
   var s = second();
-  textSize(10);
-  noStroke();
+  textSize(15);
   text("Current Time: " + h + ": " + m + ": " + s, 30, 380)
+
 
   var ma = map(s, 0, 100, 0, width);
   fill(255, 204, 0);
-  rect(200, 380, ma, 5);
+  rect(30, 400, ma, 5);
 }
