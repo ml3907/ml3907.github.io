@@ -42,17 +42,4 @@ function draw() {
   fill(25, 25, 80, 80);
   line(0, 0, 50, 0)
   pop();
-
-  push();
-  rotate(angle_h1-(PI-2))
-  fill(0);
-  text("New York Time")
-  pop();
-
-  push();
-  rotate(angle_h2-(PI-2))
-  fill(25, 25, 80, 80);
-  text("Beijing Time")
-  pop();
-
 }
