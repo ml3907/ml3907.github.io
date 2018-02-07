@@ -19,7 +19,7 @@ function draw() {
   //this is hour square.
   push();
   stroke(100);
-  strokeWeight(2.5);
+  strokeWeight(3);
   noFill();
   rotate(angle_h-(PI-2));
   rectMode(CENTER);
@@ -37,7 +37,7 @@ function draw() {
   //this is second square.
   push();
   stroke(255);
-  strokeWeight(2.5);
+  strokeWeight(2);
   noFill();
   rotate(angle_s-(PI-2));
   rectMode(CENTER);
