@@ -29,7 +29,7 @@ function draw() {
   translate(margin, margin);
 
   //display the titles
-  for (var i = 0; i < headlines.length; i++) {
+  for (var i = 0; i < 27; i++) {
     fill(255);
     text(i+1 + ".", 0 , i*lineheight*1.5);
     if (i < 9) {
