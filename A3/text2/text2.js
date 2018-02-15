@@ -27,10 +27,10 @@ function preload() {
 
 function setup() {
   createCanvas(640, 1000);
-  background(0);
+  background(100);
 
-  textSize(14);
-  textAlign(LEFT);
+  textSize(12);
+  textAlign(CENTER);
 
   noLoop(); // since we're not animating, one frame is sufficient: run draw() just once
 
@@ -38,10 +38,10 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(100);
 
   var lineheight = 24;
-  var margin = 40;
+  var margin = 30;
   translate(margin, margin);
 
   for (var i = 0; i < headlines.length; i++) {
@@ -52,7 +52,7 @@ function draw() {
 
     for (var j = 0; j < words.length; j++) {
       if (hitwords.includes(words[j].toLowerCase())) {
-        fill("orange");
+        fill(255, 190, 0);
       } else {
         fill(255);
       }
@@ -64,12 +64,9 @@ function draw() {
 }
 
 function extractHeadlines() {
-  // console.log(nytResponse); // take a look at the full API response structure
+  // console.log(nytResponse); 
   for (var i = 0; i < nytResponse.results.length; i++) {
-    var h = nytResponse.results[i].title;
-    // besides .title, other text data available to you include:
-    // .abstract, .byline, .section, etc. etc.
     append(headlines, h);
   }
-  //console.log(headlines); // make sure counted data looks as expected
+  //console.log(headlines); 
 }
