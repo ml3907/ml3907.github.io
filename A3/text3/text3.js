@@ -1,4 +1,5 @@
 var headlines = [];
+var abstract = [];
 
 function preload() {
   var url = "https://api.nytimes.com/svc/topstories/v2/home.json";
@@ -14,7 +15,6 @@ function setup() {
 
   textSize(12);
   textAlign(LEFT);
-  textStyle(ITALIC);
   textFont('Helvetica');
 
   noLoop();
@@ -38,8 +38,13 @@ function draw() {
     }
       else{
         text(headlines[i], 30 , i*lineheight*1.5);
-      }    
+      } 
   }
+}
+
+function mouseMoved() {
+  if 
+//鼠标滑过某个title时，显示该title对应的abstract
 }
 
 function extractHeadlines() {
