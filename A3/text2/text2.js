@@ -10,6 +10,7 @@ var hitwords = [
   "American",
   "South Korea",
   "African",
+  "Syria",
   "Trump"
 ];
 
@@ -26,10 +27,11 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(640, 1000);
+  createCanvas(window.innerWidth, 1000);
   background(0);
 
   textAlign(LEFT);
+  textFont('Helvetica');
 
   noLoop(); 
 
@@ -44,7 +46,7 @@ function draw() {
   translate(margin, margin);
 
   for (var i = 0; i < 50; i++) {
-    var words = split(headlines[i], " ");
+    var words = split(headlines[i], /[\s,]+/);
     // console.log(words);
 
     var nextX = 0;
@@ -56,7 +58,7 @@ function draw() {
         strokeWeight(3);
         fill(255, 138, 51);
       } else {
-        textSize(12);
+        textSize(14);
         noStroke();
         fill(125+(j*15));
       }
