@@ -9,13 +9,12 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(window.innerWidth, 1000);
-  background(0);
+  createCanvas(640, 1000);
+  background(100);
 
   textSize(12);
   textAlign(LEFT);
   textStyle(ITALIC);
-  textFont('Helvetica');
 
   noLoop();
 
@@ -23,7 +22,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(100);
 
   var lineheight = 24;
   var margin = 30;
