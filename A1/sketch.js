@@ -5,15 +5,16 @@ function setup() {
 }
 
 function draw() {
-  background(30, 20, 55, 55)
+  background(200)
 
-  fill(200);
+  fill(100);
   noStroke();
   textSize(30);
   text("Welcome to ", 30, 240);
 
   fill(255, 204, 0);
-  noStroke();
+  stroke(255);
+  strokeWeight(2);
   textSize(30);
   text("DATA VISUALIZATION!", 220, 240);
 
@@ -39,6 +40,8 @@ function draw() {
   var m = minute();
   var s = second();
   textSize(15);
+  fill(100);
+  noStroke();
   text("Current Time: " + h + ": " + m + ": " + s, 30, 380)
 
 
