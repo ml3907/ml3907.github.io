@@ -58,7 +58,7 @@ function draw() {
         strokeWeight(3);
         fill(255, 138, 51);
       } else {
-        textSize(14);
+        textSize(12);
         noStroke();
         fill(125+(j*15));
       }
