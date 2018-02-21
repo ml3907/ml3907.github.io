@@ -1,4 +1,5 @@
 var headlines = [];
+var dates = [];
 
 function preload() {
   var url = "https://api.nytimes.com/svc/topstories/v2/home.json";
@@ -20,6 +21,7 @@ function setup() {
   noLoop();
 
   extractHeadlines();
+  extractDates();
 }
 
 function draw() {
@@ -40,6 +42,12 @@ function draw() {
         text(headlines[i], 30 , i*lineheight*1.5);
       }    
   }
+
+  //display the date
+  for (var j = 0; j < dates.length; j++) {
+    fill(255);
+    text(dates[j], 400 , j*lineheight*1.5);
+  }
 }
 
 function extractHeadlines() {
@@ -49,4 +57,13 @@ function extractHeadlines() {
     append(headlines, h);
   }
   // console.log(headlines);
+}
+
+function extractDates() {
+  // console.log(dates);
+  for (var j = 0; j < nytResponse.results.length; j++ ) {
+    var d = nytResponse.results.published_date;
+    append(dates, d);
+  }
+  // console.log(dates);
 }
