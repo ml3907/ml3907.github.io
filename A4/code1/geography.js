@@ -15,8 +15,7 @@ function setup() {
 function loadData() {
   var boro = table.getColumn("Borough");
   var type = table.getColumn("Type");
-  var numbers = table.getColumn("Numbers");
-  
+  var numbers = table.getColumn("Numbers"); 
 }
 
 function draw() {
@@ -26,7 +25,7 @@ function draw() {
     if (boro[i] == "Bronx" ) {
       if (type[i] == "1") {
         fill(0); //show the new construction with black square 
-      } else if {
+      } else {
         fill(255); //show the preservation with white square
       }
       rect(margin*i, margin*i, numbers[i], numbers[i])
