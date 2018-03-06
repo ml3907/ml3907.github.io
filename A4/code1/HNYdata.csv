@@ -1,0 +1,11 @@
+Borough,UnitsType,Type,Rental,Homeownership,Others,Total,Numbers
+Bronx,New Construction,1,11472,100,802,12374,31 
+Bronx,Preservation,0,15467,2119,262,17848,45 
+Brooklyn,New Construction,1,7927,364,8666,16957,42 
+Brooklyn,Preservation,0,11490,2846,42,14378,36 
+Manhattan,New Construction,1,5199,76,11638,16913,42 
+Manhattan,Preservation,0,15658,4181,2703,22542,56 
+Queens,New Construction,1,2719,130,1591,4440,11 
+Queens,Preservation,0,3124,2616,0,5740,14 
+Staten Island,New Construction,1,368,137,546,1051,3 
+Staten Island,Preservation,0,1532,32,0,1564,4 
