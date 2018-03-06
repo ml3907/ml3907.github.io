@@ -15,3 +15,4 @@ function loadData() {
   var numbers = table.getColumn("Numbers");
 
   console.log(numbers);
+}
