@@ -1,5 +1,4 @@
 var table;
-var margin = 100;
 
 var boro = [];
 var type = [];
@@ -29,44 +28,45 @@ function draw() {
     //for every row(i): let j(max)=squares[i], and for every j<=j(max), draw one square;
           if (type[i] == "1") {
             fill(0);//show the new construction units.
+            rect(200+20*(j-1), 100+60*i, 10, 10)
           } else {
             fill(255, 190, 0);//show the preservation units.
+            rect(200+20*(j-1), 80+60*i, 10, 10)
           }
-          rect(margin, 50*i, 10, 10)
     }
    }
 
-   //draw icons
+  //draw icons
   push()
   fill(0);
-  rect(50, 690, 10, 10);
+  rect(50, 670, 10, 10);
   pop();
   push();
-  rect(255, 190, 0);
-  rect(50, 710, 10, 10);
+  fill(255, 190, 0);
+  rect(50, 690, 10, 10);
   pop();
 
-   //five Boroughs
-   push();
-   fill(0);
-   textSize(20);
-   textFont('Helvetica')
-   text("Bronx", 50, 120);
-   text("Brooklyn", 50, 240);
-   text("Manhattan", 50, 360);
-   text("Queens", 50, 480);
-   text("Staten Island", 50, 600);
-   pop();
+  //five Boroughs
+  push();
+  fill(0);
+  textSize(20);
+  textFont('Helvetica')
+  text("Bronx", 50, 120);
+  text("Brooklyn", 50, 240);
+  text("Manhattan", 50, 360);
+  text("Queens", 50, 480);
+  text("Staten Island", 50, 600);
+  pop();
 
-   push();
-   fill(0);
-   textSize(16);
-   textFont('Helvetica')
-      textFont('Helvetica')
-   text("* The Housing New York Units by Building data after January 1, 2014 comes from HPD.", 70, 740)
-   text("New Construction Units", 100, 700);
-   text("Preservation Units", 100, 720);
-   pop();
+  push();
+  fill(0);
+  textSize(16);
+  textFont('Helvetica')
+  textFont('Helvetica')
+  text("*  The Housing New York Units by Building data after January 1, 2014 comes from HPD.", 50, 720)
+  text("New Construction Units", 80, 680);
+  text("Preservation Units", 80, 700);
+  pop();
 }
 
 function loadData() {
