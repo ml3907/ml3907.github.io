@@ -3,9 +3,7 @@ var margin = 20;
 
 var boro = [];
 var type = [];
-var rentals = [];
-var owners = [];
-var others = [];
+var numbers = [];
 
 function preload(){
   table = loadTable('HNYdata.csv', 'csv', 'header');
@@ -13,7 +11,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(800 , 1000);
+  createCanvas(window.innerWidth, window.innerHeight);
   background(255);
   loadData();
 }
@@ -21,38 +19,56 @@ function setup() {
 function draw() {
   background(255);
   noStroke();
-  
+
   //draw the nested loop
   for (var i = 0; i <= type.length; i++) {
     if (type[i] == "1") {
       fill (0);
-      rect(200, 130+60*i, rentals[i]/100,20)
+      rect(200, 100+60*i, numbers[i]*15,15)
     } else {
       fill(250, 190, 0);
-      rect(200+rentals[i-1]*10, 150+60*(i-1), rentals[i]/100,20)
+      rect(200, 80+60*i, numbers[i]*15,15)
     }
 
   }
+
+  //draw icons
+  push()
+  fill(0);
+  rect(70, 690, 10, 10);
+  pop();
+  push();
+  rect(255, 190, 0);
+  rect(70, 710, 10, 10);
+  pop();
 
    //Five Boroughs
    push();
    fill(0);
    textSize(20);
    textFont('Helvetica')
-   text("Bronx", 50, 150);
-   text("Brooklyn", 50, 270);
-   text("Manhattan", 50, 390);
-   text("Queens", 50, 510);
-   text("Staten Island", 50, 630);
+   text("Bronx", 70, 120);
+   text("Brooklyn", 70, 240);
+   text("Manhattan", 70, 360);
+   text("Queens", 70, 480);
+   text("Staten Island", 70, 600);
+   pop();
+
+   push();
+   fill(0);
+   textSize(16);
+   textFont('Helvetica')
+      textFont('Helvetica')
+   text("* The Housing New York Units by Building data after January 1, 2014 comes from HPD.", 70, 740)
+   text("New Construction Units", 100, 700);
+   text("Preservation Units", 100, 720);
    pop();
 }
 
 function loadData() {
   boro = table.getColumn("Borough");
   type = table.getColumn("Type");
-  rentals = table.getColumn("Rental"); 
-  owners = table.getColumn("Homeownership");
-  others = table.getColumn("Others");
+  numbers = table.getColumn("Numbers"); 
 
   //console.log(boro)
 }
