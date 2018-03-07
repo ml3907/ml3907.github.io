@@ -1,5 +1,6 @@
 var table;
 var margin = 20;
+var sumnum = 0;
 
 var boro = [];
 var type = [];
@@ -11,7 +12,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(window.innerWidth, 1280);
+  createCanvas(1000, 1280);
   background(255);
   loadData();
 }
@@ -24,10 +25,10 @@ function draw() {
   for (var i = 0; i <= type.length; i++) {
     if (type[i] == "1") {
       fill (0);
-      rect(200, 100+60*i, numbers[i]*15,15)
+      rect(200, 100+60*i, numbers[i]*10,15)
     } else {
       fill(250, 190, 0);
-      rect(200, 80+60*i, numbers[i]*15,15)
+      rect(200+numbers[i-1]*10, 100+60*(i-1), numbers[i]*10,15)
     }
 
   }
@@ -69,6 +70,9 @@ function loadData() {
   boro = table.getColumn("Borough");
   type = table.getColumn("Type");
   numbers = table.getColumn("Numbers"); 
-
   //console.log(boro)
+  for (var k = 0; k < numbers.length; k++) {
+    sumnum += int(numbers[k]);
+  }
+  //console.log(sumnum)
 }

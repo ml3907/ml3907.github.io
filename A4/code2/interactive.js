@@ -66,6 +66,7 @@ function draw() {
   text("*  The Housing New York Units by Building data after January 1, 2014 comes from HPD.", 50, 720)
   text("New Construction Units", 80, 680);
   text("Preservation Units", 80, 700);
+  text("*  Click the units to see the homeownership composition. (NOT FINISH YET)", 50, 50)
   pop();
 }
 
