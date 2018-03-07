@@ -1,0 +1,30 @@
+body {
+	background: #FFFFFF;
+	font-family: Helvetica;
+}
+
+
+
+h1 {
+	color: #FFC300;
+	text-align: center;
+}
+
+h3 {
+	color: Black;
+	text-align: center;
+}
+
+span.highlight {
+	background-color: #C0C0C0;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 8px;
+	padding-left: 8px;
+	border-radius: 5px;
+}
+
+p {
+	color: black;
+	text-align: center;
+}
