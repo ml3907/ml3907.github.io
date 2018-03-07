@@ -11,7 +11,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(window.innerWidth, window.innerHeight);
+  createCanvas(window.innerWidth, 1280);
   background(255);
   loadData();
 }
