@@ -1,11 +1,9 @@
 var table;
+var margin = 200;
 
 var boro = [];
 var type = [];
 var squares = [];
-var rentals = [];
-var owners = [];
-var others = [];
 
 function preload(){
   table = loadTable('HNYdata.csv', 'csv', 'header');
@@ -46,16 +44,16 @@ function draw() {
   rect(50, 690, 10, 10);
   pop();
 
-  //five Boroughs
+   //five Boroughs
   push();
   fill(0);
   textSize(20);
   textFont('Helvetica')
-  text("Bronx", 50, 120);
-  text("Brooklyn", 50, 240);
-  text("Manhattan", 50, 360);
-  text("Queens", 50, 480);
-  text("Staten Island", 50, 600);
+  text("Bronx", 50, 110);
+  text("Brooklyn", 50, 230);
+  text("Manhattan", 50, 350);
+  text("Queens", 50, 470);
+  text("Staten Island", 50, 590);
   pop();
 
   push();
@@ -63,7 +61,7 @@ function draw() {
   textSize(16);
   textFont('Helvetica')
   textFont('Helvetica')
-  text("*  The Housing New York Units by Building data after January 1, 2014 comes from HPD.", 50, 720)
+  text("*  The Housing New York Units by Building data after January 1, 2014 comes from HPD. One square represent 500 units.", 50, 720)
   text("New Construction Units", 80, 680);
   text("Preservation Units", 80, 700);
   pop();
@@ -73,7 +71,4 @@ function loadData() {
   boro = table.getColumn("Borough");
   type = table.getColumn("Type");
   squares = table.getColumn("Numbers"); 
-  rentals = table.getColumn("Rental");
-  owners = table.getColumn("Homeownership");
-  others = table.getColumn("Others");
 }
