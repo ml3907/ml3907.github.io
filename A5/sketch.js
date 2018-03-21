@@ -12,10 +12,10 @@ function draw() {
 	background(0);
 	for (i = 0; i <= hour.length; i++) {
 		if (hour() < 12) {
-			a = -6
+			a = -5
 			b = -1;
 		} else {
-			a = 6;
+			a = 5;
 			b = 1;
 		}
 	}
@@ -51,8 +51,8 @@ class Particle {
 		this.x = window.innerWidth/2;
 		this.y = window.innerHeight/2;
 		this.velx = random(-hour()/10, hour()/10);//what if the velocity change over time, e.g. change at different minute
-		this.vely = random(a, b); //-6,-1
-		this.lifespan = 120;
+		this.vely = random(a, b); //-5,-1
+		this.lifespan = 100;
 	}
 
 	dead() {
@@ -68,8 +68,10 @@ class Particle {
 	show() {
 		noStroke();
 		fill(220,this.lifespan);
-		ellipse(this.x, this.y, 18);
+		ellipse(this.x, this.y, 15);
 	}
+	//console.log(particles.length);
+
 //same effect as the dead function above
 /*	dead() {
 		if (this.lifespan < 0) {
