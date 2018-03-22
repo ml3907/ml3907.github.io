@@ -12,7 +12,7 @@ function draw() {
 	background(0);
 	for (i = 0; i <= hour.length; i++) {
 		if (hour() < 12) {
-			a = -5
+			a = -5;
 			b = -1;
 		} else {
 			a = 5;
@@ -35,7 +35,7 @@ function draw() {
 
     text("How does the smoke change over time?", 50, 50);
     text("The velocity of smoke is represented by current hour/10,", 50, 80);
-    text("and the lifespan of smoke is changed by minute/10.", 50, 110);
+    text("and the lifespan of smoke is changed by minute.", 50, 110);
 }
 
 /*function mousePressed() {
