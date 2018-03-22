@@ -33,7 +33,9 @@ function draw() {
 		}
 	}
 
-    text("GUESS: How does the smoke change over time?", 50, 50);
+    text("How does the smoke change over time?", 50, 50);
+    text("The velocity of smoke is represented by current hour/10,", 50, 80);
+    text("and the lifespan of smoke is changed by minute/10.", 50, 110);
 }
 
 /*function mousePressed() {
