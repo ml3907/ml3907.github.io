@@ -31,15 +31,21 @@ function setup() {
 function togglehome() {
   state = (state == 0) ? 1 : 0 
     if (state == 1) {
-    consType();
+      fill("red");
   } else {
-    homeCom();
+    fill(150);
   } 
+  homeCom();
+}
+
+function homeCom() {
+  rect(400,400,20,20);
 }
 
 function change() {
   value1 = (value1 == 150) ? 0 : 150;
   value2 = (value2 == 150) ? color(255, 190, 0) : 150;
+  consType();
 }
 
 function consType() {
@@ -86,13 +92,7 @@ function consType() {
      }
 }
 
-function homeCom() {
-  fill("red");
-  rect(400,400,20,20);
-}
-
 function draw() {
-  togglehome();
   //draw icons
   push()
   fill(0);

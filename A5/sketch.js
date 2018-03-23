@@ -35,7 +35,7 @@ function draw() {
 
     text("How does the smoke change over time?", 50, 50);
     text("The velocity of smoke is represented by current hour/10,", 50, 80);
-    text("and the lifespan of smoke is changed by minute.", 50, 110);
+    text("and the lifespan of smoke is changed by minute/20.", 50, 110);
 }
 
 /*function mousePressed() {
@@ -64,7 +64,7 @@ class Particle {
 	update() {
 		this.x += this.velx;
 		this.y += this.vely;
-		this.lifespan -= minute()/10;
+		this.lifespan -= minute()/20;
 	}
 
 	show() {
