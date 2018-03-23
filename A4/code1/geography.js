@@ -14,9 +14,6 @@ function setup() {
   createCanvas(window.innerWidth, 1280);
   background(255);
   loadData();
-
-  button = createButton('Check the homeownership');
-  button.position(100, 100);
 }
 
 function draw() {
