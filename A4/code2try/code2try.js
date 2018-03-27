@@ -35,11 +35,12 @@ function togglehome() {
   } else {
     fill(150);
   } 
-  homeCom();
+  homeCom();//just for try.
 }
 
 function homeCom() {
-  rect(400,400,20,20);
+  rect(400,400,20,20);//just for try.
+  //will change to a function that shows the composition of homeownership.
 }
 
 function change() {
@@ -67,7 +68,7 @@ function consType() {
               rect(15*(j-1)+25, 120+40*i, 10, 10);
             } else if (j > 30 && j <= 35) {
               rect(15*(j-1)-265, 140+40*i, 10, 10);
-            }//show the new construction units.
+            }//show the preservation units.
           } else {
           fill(value2);
             if (j < 5) {
