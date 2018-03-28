@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    body {background: white;
+          font-family: Helvetica;
+    }
+
+    h3 {
+    background-color: #ccc;
+    margin: 10px;
+    padding: 10px;
+}
+
+    p    {color: black;
+          text-align: left;
+          margin:5px 5px 20px 20px;
+          font-size: 14px
+    }
+    </style>
+
+    <title>A6: Mapping Crime Complaints - Explaination</title>
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+  </head>
+  <body>
+    <h3><strong>Explaination of Crime Complaints Location</strong></h3>
+  	<p><strong>Story</strong></p>
+  	<p>How can we find the location of crime? This is a visualization of crime complaints in Harlem neighborhood, Manhattan. Through these figures, people can find where the crime complaints are reported and have a glimpse of the area with high crime rate. Considering the size of data set, I used the data in from January to June in 2017 and selected top 100 spots with highest crime complaints for analysis and visualization. The neighborhood includes No. 28, 30, 32 Precinct.</p>
+  	<p><strong>Misrepresentation</strong></p>
+  	<p>Figure 1 use a bubble chart to simply visualize the number of complaints. X and Y axis are longitude and latitude respectively. We can find crime complaints are concentrated at which longtitude and latitude, but the bubbles are <strong>overlapped</strong> with each other and <strong>could not provide a direct feeling of the loaction</strong>, which makes it hard to read.</p>
+    <p>Then, I try to display it through Carto, an online map tool <a href="https://carto.com/">(https://carto.com/)</a>. The circles in Figure 2 represent 100 spots located by longitude and latitude. The radius of circle is the classified number of complaints happened at that spot in the selected time period. The larger the circle, the higher the crime complaints. However, although the map looks clear with diverse transparent circles, <strong>the size of circle may be misleading.</strong> It makes people feel as if the whole area covered by the circle has high crime rate, just like a buffer.</p>
+    <p>To make that clear, I made Figure 3 and change the circles to rectangles. Now the height of rectangles directly shows the classified number of complaints at each specific location. We can also figure out the density through the distribution of spots with tall rectangles. It seems much more reasonable right now. But another problem is these spots <strong>only represent the place where people make the crime complaints</strong> rather than where the actual crime happened. The dense rectangles may also indicate that those area is highly policed and have many devices along the streets for people to call for crime complaints.</p>
+	  <p><strong>Discussion</strong></p>
+	  <p>All the figures provide specific location and the number of crime complaints at that location, which accords with the original intention of the map. The rectangle one is more accurate than the circle one, but the scale and the original data has some disadvantages to display where the exact crime happened in both figures. Thinking of mapping crime spot more accurately, maybe we can use GIS tools, or just enlarge the mapping area, for example calculating the crime in precinct scale.</p>
+	  <p><a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Map-Year-to-Date-/2fra-mtpn/data">Data Source: 2017 NYPD Complaint Map (Year to Date). Derived from NYC OpenData.</a></p>
+  </body>
+</html>

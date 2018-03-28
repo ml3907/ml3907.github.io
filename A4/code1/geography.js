@@ -60,7 +60,6 @@ function draw() {
   fill(0);
   textSize(16);
   textFont('Helvetica')
-  textFont('Helvetica')
   text("*  The Housing New York Units by Building data after January 1, 2014 comes from HPD. One square represent 500 units.", 50, 720)
   text("New Construction Units", 80, 680);
   text("Preservation Units", 80, 700);
