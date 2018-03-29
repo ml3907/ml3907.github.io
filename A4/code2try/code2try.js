@@ -23,23 +23,21 @@ function setup() {
 }
 
 function draw() {
-  for (var i = 0; i < 6; i++) {
-      for (var j = 0; j <= total[i]; j++) {
-        if (j<20) {
-          fill(0);
-          rect(200+15*(j-1), 100+20*i, 10, 10);
-        } else if (j>20 && j<=40) {
-           fill(0);
-          rect(200+15*(j-1),200+20*i, 10, 10);
-        } else if (j>40 && j<=60) {
-           fill("red");
-          rect(200+15*(j-1), 300+20*i, 10, 10);
-        } else if (j>60 && j <= 80) {
-          fill(255, 190, 0);
-          rect(200+15*(j-1), 400+20*i, 10, 10);
-        }
-
-      } 
+  //Brooklyn
+    for (var j = 0; j <= total[0]; j++) {
+      if (j<20) {
+        fill(0);
+        rect(200+15*(j-1), 100, 10, 10);
+      } else if (j>20 && j<=40) {
+        fill("grey");
+        rect(200+15*(j-1),100, 10, 10);
+      } else if (j>40 && j<=60) {
+        fill("red");
+        rect(15*(j-1)-400, 220, 10, 10);
+      } else if (j>60 && j <= 80) {
+        fill(255, 190, 0);
+        rect(15*(j-1)-715, 400, 10, 10);
+       }
   }
 }
 
