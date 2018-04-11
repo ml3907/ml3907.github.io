@@ -1,62 +1,126 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-    body {background: white;
-          font-family: Helvetica;
-    }
-
-    h3 {
-        background-color: #ccc;
-        margin: 10px;
-        padding: 10px;
-    }
-
-    p    {color: black;
-          text-align: left;
-          margin:5px 5px 20px 20px;
-    }
-
-    </style>
-
-    <title>A7.1: Final Project Sketches</title>
-    <link href="style/main.css" rel="stylesheet" type="text/css" />
+    <title>A7.2: One-Day Ridership</title>
     <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
-    <style> body {padding: 0; margin: 0;} </style>
-    <script src="p5.min.js"></script>
-    <script src="p5.dom.min.js"></script>
+   <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+
+
+    <div id="container" style="min-width: 420px; max-width: 600px; height: 400px; margin: 0 auto"></div>
+
+    <div style="display:none">
+      <table id="freq" border="0" cellspacing="0" cellpadding="0">
+        <tr nowrap bgcolor="#CCCCFF">
+          <th colspan="9" class="hdr">Table</th>
+        </tr>
+        <tr nowrap bgcolor="#CCCCFF">
+          <th class="freq">Direction</th>
+          <th class="freq">Ridership</th>
+        </tr>
+        <tr nowrap>
+          <td class="dir">0:00</td>
+          <td class="data">2</td>
+        </tr>
+        <tr nowrap bgcolor="#DDDDDD">
+          <td class="dir">1:00</td>
+          <td class="data">0</td>
+        </tr>
+        <tr nowrap>
+          <td class="dir">2:00</td>
+          <td class="data">0</td>
+        </tr>
+        <tr nowrap bgcolor="#DDDDDD">
+          <td class="dir">3:00</td>
+          <td class="data">0</td>
+        </tr>
+        <tr nowrap>
+          <td class="dir">4:00</td>
+          <td class="data">0</td>
+        </tr>
+        <tr nowrap bgcolor="#DDDDDD">
+          <td class="dir">5:00</td>
+          <td class="data">1</td>
+        </tr>
+        <tr nowrap>
+          <td class="dir">6:00</td>
+          <td class="data">5</td>
+        </tr>
+        <tr nowrap bgcolor="#DDDDDD">
+          <td class="dir">7:00</td>
+          <td class="data">38</td>
+        </tr>
+        <tr nowrap>
+          <td class="dir">8:00</td>
+          <td class="data">28</td>
+        </tr>
+        <tr nowrap bgcolor="#DDDDDD">
+          <td class="dir">9:00</td>
+          <td class="data">31</td>
+        </tr>
+        <tr nowrap>
+          <td class="dir">10:00</td>
+          <td class="data">22</td>
+        </tr>
+        <tr nowrap bgcolor="#DDDDDD">
+          <td class="dir">11:000</td>
+          <td class="data">7</td>
+        </tr>
+        <tr nowrap>
+          <td class="dir">12:00</td>
+          <td class="data">4</td>
+        </tr>
+        <tr nowrap bgcolor="#DDDDDD">
+          <td class="dir">13:00</td>
+          <td class="data">4</td>
+        </tr>
+        <tr nowrap>
+          <td class="dir">14:00-15:00</td>
+          <td class="data">12</td>
+        </tr>
+        <tr nowrap bgcolor="#DDDDDD">
+          <td class="dir">15:00</td>
+          <td class="data">22</td>
+        </tr>
+        <tr nowrap bgcolor="#DDDDDD">
+          <td class="dir">16:00</td>
+          <td class="data">13</td>
+        </tr>
+        <tr nowrap bgcolor="#DDDDDD">
+          <td class="dir">17:00-18:00</td>
+          <td class="data">13</td>
+        </tr>
+        <tr nowrap bgcolor="#DDDDDD">
+          <td class="dir">18:00-19:00</td>
+          <td class="data">14</td>
+        </tr>
+        <tr nowrap bgcolor="#DDDDDD">
+          <td class="dir">19:000</td>
+          <td class="data">16</td>
+        </tr>
+        <tr nowrap bgcolor="#DDDDDD">
+          <td class="dir">20:000</td>
+          <td class="data">6</td>
+        </tr>
+        <tr nowrap bgcolor="#DDDDDD">
+          <td class="dir">21:00</td>
+          <td class="data">6</td>
+        </tr>
+        <tr nowrap bgcolor="#DDDDDD">
+          <td class="dir">22:00</td>
+          <td class="data">8</td>
+        </tr>
+        <tr nowrap bgcolor="#DDDDDD">
+          <td class="dir">23:00</td>
+          <td class="data">2</td>
+        </tr>
+      </table>
+    </div>
   </head>
   <body>
-  	<h3><strong>Visualizing the Supply and Demand of CitiBike</strong></h3>
-  	<p><strong>Background</strong></p>
-    <p>- The expansion of Citibike stations<br>
-       - The challenge of rebalancing Citibikes<br>
-       - High demand in rush hour and summer<br> 
-       - Past research: relationship between Citibike ridership and neighborhood demographics based on cencus tracts</p>
-
-    <p><strong>Possible Questions</strong></p>
-    <p>-  What is the ridership change in different time period or time series?<br>
-       -  What is the availability of CitiBike at each Station?<br>
-       -  What is the supply and demand of Citibike at each station? How can we evaluate it?</p>
-
-    <p>Sketch 1</p>
-    <p><img src="Vis1.jpg", width=70%></p>
-    <p>Sketch 2</p>
-    <p><img src="Vis2.jpg", width=70%></p>
-    <p>Sketch 3. Checking Supply and Demand of CitiBike at different stations with Interactive Searching Function</p>
-    <p><img src="Vis3.jpg", width=70%></p>
-
-    <p><strong>Data Source</strong></p>
-    <p>CitiBike. Citi Bike Trip Histories.<a href="https://www.citibikenyc.com/system-data."> https://www.citibikenyc.com/system-data.<br>
-      General Bikeshare Feed Specification (GBFS).<a href="https://github.com/NABSA/gbfs/blob/master/gbfs.md."> https://github.com/NABSA/gbfs/blob/master/gbfs.md.<br>
-      Station information.<a href="https://gbfs.citibikenyc.com/gbfs/en/station_information"> https://gbfs.citibikenyc.com/gbfs/en/station_information.json.<br>
-      Real-time station status.<a href="https://feeds.citibikenyc.com/stations/stations.json"> https://feeds.citibikenyc.com/stations/stations.json.</p>
-
-    <p><strong>References</strong></p>
-    <p>1.  Google News Lab. “Rhythm of Food”. http://rhythm-of-food.net/. Accessed on March 21, 2018.<br>
-      2.  Highcharts: Wind Rose Chart. https://www.highcharts.com/demo/polar-wind-rose/sand-signika.<br> 
-      3.  Rebalancing Citi Bike. https://run.unl.pt/bitstream/10362/17842/1/TGEO0145.pdf.<br>
-      4.  News report: http://newyork.cbslocal.com/2013/08/15/riders-citi-bike-struggling-to-balance-supply-and-demand-app-unreliable/     
-    </p>
+    <script src="sketch.js"></script>
+    <p style="text-align:center">Total docks at this station are: 67.</p>
+    <p style="text-align:center">The supply and demand ratio at this station is: 3.85</p>
   </body>
 </html>

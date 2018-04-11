@@ -1,14 +1,57 @@
+    var chart1 = Highcharts.chart('container', {
+	    data: {
+	        table: 'freq',
+	        startRow: 1,
+	        endRow: 24,
+	        endColumn: 1
+	    },
 
-var margin = 100
+	    chart: {
+	        polar: true,
+	        type: 'column'
+	    },
 
-function setup() {
-  createCanvas(window.innerWidth, window.innerHeight);
-}
+	    title: {
+	        text: 'CitiBike Ridership in One Day at Columbus Ave & W 72 St'
+	    },
 
-function draw() {
-  background(255);
-  textFont('Helvetica')
-  fill(0);
+	    subtitle: {
+	        text: 'Data Source: https://www.citibikenyc.com/system-data.  Code Reference: https://www.highcharts.com/'
+	    },
 
+	    pane: {
+	        size: '80%'
+	    },
 
-}
+	    legend: {
+	        align: 'right',
+	        verticalAlign: 'top',
+	        y: 100,
+	        layout: 'vertical'
+	    },
+
+	    xAxis: {
+	        tickmarkPlacement: 'on'
+	    },
+
+	    yAxis: {
+	        min: 0,
+	        endOnTick: false,
+	        showLastLabel: true,
+	        labels: {
+	            formatter: function () {
+	                return this.value;
+	            }
+	        },
+	        reversedStacks: false
+	    },
+
+	    plotOptions: {
+	        series: {
+	            stacking: 'normal',
+	            shadow: false,
+	            groupPadding: 0,
+	            pointPlacement: 'on'
+	        }
+	    }
+	});
