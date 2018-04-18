@@ -1,0 +1,260 @@
+startstation,endstation,count,tripduration
+1 Ave & E 16 St,8 Ave & W 31 St,8,7078
+1 Ave & E 18 St,8 Ave & W 31 St,3,2977
+1 Ave & E 30 St,8 Ave & W 31 St,3,1908
+1 Ave & E 62 St,8 Ave & W 31 St,1,1556
+1 Ave & E 68 St,8 Ave & W 31 St,4,9649
+1 Pl & Clinton St,8 Ave & W 31 St,1,2810
+10 Hudson Yards,8 Ave & W 31 St,3,1081
+11 Ave & W 27 St,8 Ave & W 31 St,55,25425
+11 Ave & W 41 St,8 Ave & W 31 St,5,2723
+11 Ave & W 59 St,8 Ave & W 31 St,10,8363
+12 Ave & W 40 St,8 Ave & W 31 St,4,3385
+2 Ave & E 31 St,8 Ave & W 31 St,9,5484
+5 Ave & E 29 St,8 Ave & W 31 St,17,6181
+5 Ave & E 63 St,8 Ave & W 31 St,3,2637
+6 Ave & Canal St,8 Ave & W 31 St,12,12328
+6 Ave & Spring St,8 Ave & W 31 St,10,9861
+6 Ave & W 33 St,8 Ave & W 31 St,3,3113
+8 Ave & W 16 St,8 Ave & W 31 St,59,24355
+8 Ave & W 31 St,8 Ave & W 31 St,11,10340
+8 Ave & W 33 St,8 Ave & W 31 St,3,5634
+8 Ave & W 52 St,8 Ave & W 31 St,6,3665
+9 Ave & W 18 St,8 Ave & W 31 St,34,14847
+9 Ave & W 22 St,8 Ave & W 31 St,29,10739
+9 Ave & W 28 St,8 Ave & W 31 St,15,4080
+9 Ave & W 45 St,8 Ave & W 31 St,12,7512
+Allen St & Hester St,8 Ave & W 31 St,1,1300
+Allen St & Stanton St,8 Ave & W 31 St,1,1091
+Amsterdam Ave & W 66 St,8 Ave & W 31 St,2,2305
+Amsterdam Ave & W 73 St,8 Ave & W 31 St,2,1855
+Avenue D & E 12 St,8 Ave & W 31 St,1,1350
+Bank St & Hudson St,8 Ave & W 31 St,10,6121
+Bank St & Washington St,8 Ave & W 31 St,10,5560
+Barclay St & Church St,8 Ave & W 31 St,4,5702
+Barrow St & Hudson St,8 Ave & W 31 St,29,22092
+Bayard St & Baxter St,8 Ave & W 31 St,2,2666
+Bialystoker Pl & Delancey St,8 Ave & W 31 St,1,1547
+Broad St & Bridge St,8 Ave & W 31 St,2,4423
+Broadway & Battery Pl,8 Ave & W 31 St,7,10995
+Broadway & Berry St,8 Ave & W 31 St,1,2105
+Broadway & E 14 St,8 Ave & W 31 St,7,7292
+Broadway & E 22 St,8 Ave & W 31 St,11,5830
+Broadway & W 24 St,8 Ave & W 31 St,13,6951
+Broadway & W 29 St,8 Ave & W 31 St,4,1433
+Broadway & W 32 St,8 Ave & W 31 St,3,623
+Broadway & W 37 St,8 Ave & W 31 St,2,692
+Broadway & W 41 St,8 Ave & W 31 St,7,5514
+Broadway & W 49 St,8 Ave & W 31 St,4,2538
+Broadway & W 51 St,8 Ave & W 31 St,9,6701
+Broadway & W 53 St,8 Ave & W 31 St,5,5276
+Broadway & W 56 St,8 Ave & W 31 St,3,2627
+Broadway & W 58 St,8 Ave & W 31 St,3,3860
+Brooklyn Bridge Park - Pier 2,8 Ave & W 31 St,1,45125
+Bus Slip & State St,8 Ave & W 31 St,2,2920
+Canal St & Rutgers St,8 Ave & W 31 St,1,1900
+Carmine St & 6 Ave,8 Ave & W 31 St,10,7258
+Cathedral Pkwy & Broadway,8 Ave & W 31 St,1,1933
+Central Park North & Adam Clayton Powell Blvd,8 Ave & W 31 St,1,2628
+Central Park S & 6 Ave,8 Ave & W 31 St,1,1305
+Central Park West & W 102 St,8 Ave & W 31 St,1,1870
+Central Park West & W 68 St,8 Ave & W 31 St,1,985
+Centre St & Chambers St,8 Ave & W 31 St,4,6017
+Christopher St & Greenwich St,8 Ave & W 31 St,13,7893
+Cleveland Pl & Spring St,8 Ave & W 31 St,5,5453
+Cliff St & Fulton St,8 Ave & W 31 St,1,1245
+Clinton St & 4 Place,8 Ave & W 31 St,1,2514
+Clinton St & Grand St,8 Ave & W 31 St,1,1723
+Clinton St & Joralemon St,8 Ave & W 31 St,2,4569
+Columbus Ave & W 72 St,8 Ave & W 31 St,2,1597
+Columbus Ave & W 95 St,8 Ave & W 31 St,1,1366
+Concord St & Bridge St,8 Ave & W 31 St,1,2554
+Cooper Square & E 7 St,8 Ave & W 31 St,9,8497
+Court St & State St,8 Ave & W 31 St,1,1782
+Duane St & Greenwich St,8 Ave & W 31 St,1,1274
+Duffield St & Willoughby St,8 Ave & W 31 St,1,2492
+E 10 St & 5 Ave,8 Ave & W 31 St,1,639
+E 10 St & Avenue A,8 Ave & W 31 St,1,1120
+E 11 St & 1 Ave,8 Ave & W 31 St,4,4205
+E 11 St & 2 Ave,8 Ave & W 31 St,1,837
+E 11 St & Broadway,8 Ave & W 31 St,3,2719
+E 12 St & 3 Ave,8 Ave & W 31 St,1,1006
+E 12 St & Avenue B,8 Ave & W 31 St,1,936
+E 13 St & Avenue A,8 Ave & W 31 St,10,9897
+E 15 St & 3 Ave,8 Ave & W 31 St,12,9173
+E 16 St & 5 Ave,8 Ave & W 31 St,7,4640
+E 16 St & Irving Pl,8 Ave & W 31 St,4,2743
+E 17 St & Broadway,8 Ave & W 31 St,26,40015
+E 2 St & 2 Ave,8 Ave & W 31 St,1,990
+E 2 St & Avenue C,8 Ave & W 31 St,3,4170
+E 20 St & 2 Ave,8 Ave & W 31 St,5,3204
+E 20 St & FDR Drive,8 Ave & W 31 St,5,5256
+E 20 St & Park Ave,8 Ave & W 31 St,5,3000
+E 23 St & 1 Ave,8 Ave & W 31 St,8,7388
+E 24 St & Park Ave S,8 Ave & W 31 St,17,8462
+E 25 St & 1 Ave,8 Ave & W 31 St,8,5769
+E 25 St & 2 Ave,8 Ave & W 31 St,2,2064
+E 27 St & 1 Ave,8 Ave & W 31 St,6,4559
+E 3 St & 1 Ave,8 Ave & W 31 St,5,5439
+E 30 St & Park Ave S,8 Ave & W 31 St,13,6371
+E 31 St & 3 Ave,8 Ave & W 31 St,13,8244
+E 32 St & Park Ave,8 Ave & W 31 St,4,4114
+E 33 St & 2 Ave,8 Ave & W 31 St,1,727
+E 33 St & 5 Ave,8 Ave & W 31 St,8,2532
+E 39 St & 2 Ave,8 Ave & W 31 St,2,1537
+E 39 St & 3 Ave,8 Ave & W 31 St,2,1275
+E 4 St & 2 Ave,8 Ave & W 31 St,2,2460
+E 41 St & Madison Ave,8 Ave & W 31 St,4,2708
+E 44 St & 2 Ave,8 Ave & W 31 St,1,962
+E 47 St & Park Ave,8 Ave & W 31 St,12,9904
+E 48 St & 5 Ave,8 Ave & W 31 St,9,6994
+E 5 St & Avenue C,8 Ave & W 31 St,2,2760
+E 51 St & Lexington Ave,8 Ave & W 31 St,3,2234
+E 52 St & 2 Ave,8 Ave & W 31 St,2,2042
+E 53 St & Madison Ave,8 Ave & W 31 St,5,10538
+E 55 St & 3 Ave,8 Ave & W 31 St,3,3349
+E 55 St & Lexington Ave,8 Ave & W 31 St,2,2107
+E 58 St & 3 Ave,8 Ave & W 31 St,3,2908
+E 59 St & Madison Ave,8 Ave & W 31 St,1,823
+E 67 St & Park Ave,8 Ave & W 31 St,1,1811
+E 7 St & Avenue A,8 Ave & W 31 St,6,6854
+E 72 St & York Ave,8 Ave & W 31 St,1,1865
+E 76 St & Park Ave,8 Ave & W 31 St,1,1429
+E 85 St & 3 Ave,8 Ave & W 31 St,1,1490
+E 9 St & Avenue C,8 Ave & W 31 St,2,2795
+E 91 St & 2 Ave,8 Ave & W 31 St,1,1764
+E 91 St & Park Ave,8 Ave & W 31 St,1,2275
+E 93 St & 2 Ave,8 Ave & W 31 St,1,1774
+FDR Drive & E 35 St,8 Ave & W 31 St,3,2957
+Forsyth St & Broome St,8 Ave & W 31 St,3,4445
+Franklin St & W Broadway,8 Ave & W 31 St,2,2642
+Frederick Douglass Blvd & W 112 St,8 Ave & W 31 St,2,3033
+Front St & Maiden Ln,8 Ave & W 31 St,1,1935
+Fulton St & Broadway,8 Ave & W 31 St,4,5455
+Grand Army Plaza & Central Park S,8 Ave & W 31 St,5,4594
+Grand St & Elizabeth St,8 Ave & W 31 St,7,10449
+Grand St & Greene St,8 Ave & W 31 St,2,1948
+Great Jones St,8 Ave & W 31 St,8,8973
+Greenwich Ave & 8 Ave,8 Ave & W 31 St,27,12464
+Greenwich Ave & Charles St,8 Ave & W 31 St,5,3138
+Greenwich St & Hubert St,8 Ave & W 31 St,16,16281
+Greenwich St & W Houston St,8 Ave & W 31 St,36,28256
+Harrison St & Hudson St,8 Ave & W 31 St,1,896
+Hudson St & Reade St,8 Ave & W 31 St,5,7507
+Jay St & Tech Pl,8 Ave & W 31 St,1,2043
+John St & William St,8 Ave & W 31 St,2,3425
+Kosciuszko St & Nostrand Ave,8 Ave & W 31 St,1,2646
+Lafayette Ave & Fort Greene Pl,8 Ave & W 31 St,1,1807
+Lafayette St & E 8 St,8 Ave & W 31 St,8,7261
+Lafayette St & Jersey St,8 Ave & W 31 St,16,18513
+LaGuardia Pl & W 3 St,8 Ave & W 31 St,6,5446
+Laight St & Hudson St,8 Ave & W 31 St,3,2705
+Lawrence St & Willoughby St,8 Ave & W 31 St,1,2579
+Lenox Ave & W 130 St,8 Ave & W 31 St,1,2819
+Lexington Ave & E 24 St,8 Ave & W 31 St,11,6806
+Lexington Ave & E 29 St,8 Ave & W 31 St,12,7093
+Liberty St & Broadway,8 Ave & W 31 St,3,4380
+Little West St & 1 Pl,8 Ave & W 31 St,4,5862
+MacDougal St & Prince St,8 Ave & W 31 St,11,10178
+MacDougal St & Washington Sq,8 Ave & W 31 St,3,2477
+Madison Ave & E 99 St,8 Ave & W 31 St,1,2042
+Madison St & Clinton St,8 Ave & W 31 St,1,1288
+Madison St & Montgomery St,8 Ave & W 31 St,1,1688
+Maiden Ln & Pearl St,8 Ave & W 31 St,3,4466
+Mercer St & Bleecker St,8 Ave & W 31 St,4,2794
+Mercer St & Spring St,8 Ave & W 31 St,4,4490
+Mott St & Prince St,8 Ave & W 31 St,3,4726
+Murray St & Greenwich St,8 Ave & W 31 St,3,5072
+Murray St & West St,8 Ave & W 31 St,7,10043
+Old Slip & Front St,8 Ave & W 31 St,1,1926
+Pearl St & Hanover Square,8 Ave & W 31 St,3,5779
+Peck Slip & Front St,8 Ave & W 31 St,1,1481
+Perry St & Bleecker St,8 Ave & W 31 St,5,2753
+Pershing Square North,8 Ave & W 31 St,18,10918
+Pershing Square South,8 Ave & W 31 St,9,5792
+Pier 40 - Hudson River Park,8 Ave & W 31 St,4,3908
+Pike St & E Broadway,8 Ave & W 31 St,2,3501
+Reade St & Broadway,8 Ave & W 31 St,3,4557
+Riverside Blvd & W 67 St,8 Ave & W 31 St,2,2141
+Riverside Dr & W 72 St,8 Ave & W 31 St,1,1316
+Riverside Dr & W 78 St,8 Ave & W 31 St,1,1036
+Rivington St & Chrystie St,8 Ave & W 31 St,1,1399
+Schermerhorn St & Court St,8 Ave & W 31 St,2,4351
+South End Ave & Liberty St,8 Ave & W 31 St,11,16394
+South St & Gouverneur Ln,8 Ave & W 31 St,7,14319
+South St & Whitehall St,8 Ave & W 31 St,1,1169
+St Marks Pl & 1 Ave,8 Ave & W 31 St,4,5799
+St Marks Pl & 2 Ave,8 Ave & W 31 St,1,803
+Stanton St & Chrystie St,8 Ave & W 31 St,3,4095
+Suffolk St & Stanton St,8 Ave & W 31 St,2,2904
+Sullivan St & Washington Sq,8 Ave & W 31 St,6,4449
+University Pl & E 14 St,8 Ave & W 31 St,6,4846
+University Pl & E 8 St,8 Ave & W 31 St,7,6128
+Vesey Pl & River Terrace,8 Ave & W 31 St,12,14438
+W 104 St & Amsterdam Ave,8 Ave & W 31 St,2,3387
+W 106 St & Central Park West,8 Ave & W 31 St,1,1147
+W 11 St & 6 Ave,8 Ave & W 31 St,3,2107
+W 116 St & Broadway,8 Ave & W 31 St,1,2181
+W 13 St & 5 Ave,8 Ave & W 31 St,6,7361
+W 13 St & 6 Ave,8 Ave & W 31 St,6,3860
+W 13 St & 7 Ave,8 Ave & W 31 St,3,1624
+W 13 St & Hudson St,8 Ave & W 31 St,16,9573
+W 15 St & 10 Ave,8 Ave & W 31 St,19,10602
+W 15 St & 7 Ave,8 Ave & W 31 St,9,3714
+W 16 St & The High Line,8 Ave & W 31 St,16,7501
+W 17 St & 8 Ave,8 Ave & W 31 St,34,11569
+W 18 St & 6 Ave,8 Ave & W 31 St,25,14806
+W 20 St & 11 Ave,8 Ave & W 31 St,57,28889
+W 20 St & 7 Ave,8 Ave & W 31 St,15,7062
+W 20 St & 8 Ave,8 Ave & W 31 St,39,13126
+W 21 St & 6 Ave,8 Ave & W 31 St,32,14073
+W 22 St & 10 Ave,8 Ave & W 31 St,17,7436
+W 22 St & 8 Ave,8 Ave & W 31 St,24,9349
+W 24 St & 7 Ave,8 Ave & W 31 St,16,4315
+W 25 St & 6 Ave,8 Ave & W 31 St,8,5361
+W 27 St & 10 Ave,8 Ave & W 31 St,41,15858
+W 27 St & 7 Ave,8 Ave & W 31 St,11,3187
+W 31 St & 7 Ave,8 Ave & W 31 St,1,167
+W 33 St & 7 Ave,8 Ave & W 31 St,2,454
+W 34 St & 11 Ave,8 Ave & W 31 St,3,1485
+W 36 St & 9 Ave,8 Ave & W 31 St,1,1473
+W 37 St & 10 Ave,8 Ave & W 31 St,7,3907
+W 37 St & 5 Ave,8 Ave & W 31 St,4,2510
+W 38 St & 8 Ave,8 Ave & W 31 St,5,2508
+W 4 St & 7 Ave S,8 Ave & W 31 St,9,7329
+W 41 St & 8 Ave,8 Ave & W 31 St,2,895
+W 42 St & 8 Ave,8 Ave & W 31 St,1,465
+W 42 St & Dyer Ave,8 Ave & W 31 St,4,1975
+W 43 St & 6 Ave,8 Ave & W 31 St,5,5284
+W 44 St & 5 Ave,8 Ave & W 31 St,7,4722
+W 45 St & 6 Ave,8 Ave & W 31 St,4,4121
+W 45 St & 8 Ave,8 Ave & W 31 St,6,4472
+W 46 St & 11 Ave,8 Ave & W 31 St,5,3295
+W 47 St & 10 Ave,8 Ave & W 31 St,11,7771
+W 49 St & 8 Ave,8 Ave & W 31 St,13,9764
+W 52 St & 11 Ave,8 Ave & W 31 St,5,6774
+W 52 St & 5 Ave,8 Ave & W 31 St,14,10286
+W 52 St & 6 Ave,8 Ave & W 31 St,16,11542
+W 52 St & 9 Ave,8 Ave & W 31 St,3,1640
+W 53 St & 10 Ave,8 Ave & W 31 St,7,6974
+W 54 St & 9 Ave,8 Ave & W 31 St,5,3225
+W 55 St & 6 Ave,8 Ave & W 31 St,6,4989
+W 56 St & 10 Ave,8 Ave & W 31 St,7,6162
+W 59 St & 10 Ave,8 Ave & W 31 St,1,836
+W 63 St & Broadway,8 Ave & W 31 St,3,2611
+W 64 St & West End Ave,8 Ave & W 31 St,4,3771
+W 67 St & Broadway,8 Ave & W 31 St,1,940
+W 74 St & Columbus Ave,8 Ave & W 31 St,2,2253
+W 76 St & Columbus Ave,8 Ave & W 31 St,2,1959
+W 84 St & Columbus Ave,8 Ave & W 31 St,1,1192
+W 88 St & West End Ave,8 Ave & W 31 St,1,1333
+W 89 St & Columbus Ave,8 Ave & W 31 St,1,5502
+W Broadway & Spring Street,8 Ave & W 31 St,6,8805
+Washington Pl & 6 Ave,8 Ave & W 31 St,4,2741
+Washington Pl & Broadway,8 Ave & W 31 St,3,3683
+Washington St & Gansevoort St,8 Ave & W 31 St,14,9723
+Water - Whitehall Plaza,8 Ave & W 31 St,4,6722
+Watts St & Greenwich St,8 Ave & W 31 St,4,4403
+West St & Chambers St,8 Ave & W 31 St,18,28327
+West Thames St,8 Ave & W 31 St,1,1735
+William St & Pine St,8 Ave & W 31 St,1,1574
