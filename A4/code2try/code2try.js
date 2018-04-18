@@ -1,5 +1,5 @@
 //define constants
-var state = 0; statehome = 0;
+var state = 0; 
 var marginx = 360;
 
 //define variables

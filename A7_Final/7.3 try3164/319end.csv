@@ -1,180 +1,110 @@
-,tripduration,starttime,stoptime,startid,startname,endid,endname
-4032,835,9/26/2017 23:48,9/27/2017 0:02,482,W 15 St & 7 Ave,319,Fulton St & Broadway
-4033,200,9/27/2017 5:27,9/27/2017 5:31,309,Murray St & West St,319,Fulton St & Broadway
-4034,1472,9/27/2017 5:51,9/27/2017 6:15,3255,8 Ave & W 31 St,319,Fulton St & Broadway
-4035,761,9/27/2017 6:20,9/27/2017 6:33,380,W 4 St & 7 Ave S,319,Fulton St & Broadway
-4036,404,9/27/2017 6:23,9/27/2017 6:30,3436,Greenwich St & Hubert St,319,Fulton St & Broadway
-4037,444,9/27/2017 6:27,9/27/2017 6:35,3435,Grand St & Elizabeth St,319,Fulton St & Broadway
-4038,906,9/27/2017 6:35,9/27/2017 6:50,502,Henry St & Grand St,319,Fulton St & Broadway
-4039,627,9/27/2017 6:38,9/27/2017 6:48,331,Pike St & Monroe St,319,Fulton St & Broadway
-4040,1625,9/27/2017 6:39,9/27/2017 7:06,3307,West End Ave & W 94 St,319,Fulton St & Broadway
-4041,240,9/27/2017 6:44,9/27/2017 6:48,351,Front St & Maiden Ln,319,Fulton St & Broadway
-4042,1454,9/27/2017 6:44,9/27/2017 7:08,519,Pershing Square North,319,Fulton St & Broadway
-4043,709,9/27/2017 6:49,9/27/2017 7:00,327,Vesey Pl & River Terrace,319,Fulton St & Broadway
-4044,1847,9/27/2017 6:51,9/27/2017 7:21,3362,Madison Ave & E 82 St,319,Fulton St & Broadway
-4045,830,9/27/2017 6:52,9/27/2017 7:06,3408,Congress St & Clinton St,319,Fulton St & Broadway
-4046,1547,9/27/2017 7:12,9/27/2017 7:38,385,E 55 St & 2 Ave,319,Fulton St & Broadway
-4047,186,9/27/2017 7:22,9/27/2017 7:26,306,Cliff St & Fulton St,319,Fulton St & Broadway
-4048,407,9/27/2017 7:32,9/27/2017 7:39,2009,Catherine St & Monroe St,319,Fulton St & Broadway
-4049,719,9/27/2017 7:37,9/27/2017 7:49,236,St Marks Pl & 2 Ave,319,Fulton St & Broadway
-4050,182,9/27/2017 7:50,9/27/2017 7:53,306,Cliff St & Fulton St,319,Fulton St & Broadway
-4051,656,9/27/2017 7:53,9/27/2017 8:04,403,E 2 St & 2 Ave,319,Fulton St & Broadway
-4052,325,9/27/2017 7:55,9/27/2017 8:00,351,Front St & Maiden Ln,319,Fulton St & Broadway
-4053,1123,9/27/2017 7:55,9/27/2017 8:14,239,Willoughby St & Fleet St,319,Fulton St & Broadway
-4054,713,9/27/2017 7:58,9/27/2017 8:09,403,E 2 St & 2 Ave,319,Fulton St & Broadway
-4055,221,9/27/2017 8:08,9/27/2017 8:12,264,Maiden Ln & Pearl St,319,Fulton St & Broadway
-4056,769,9/27/2017 8:11,9/27/2017 8:24,350,Clinton St & Grand St,319,Fulton St & Broadway
-4057,1256,9/27/2017 8:16,9/27/2017 8:37,346,Bank St & Hudson St,319,Fulton St & Broadway
-4058,2098,9/27/2017 8:18,9/27/2017 8:53,454,E 51 St & 1 Ave,319,Fulton St & Broadway
-4059,1030,9/27/2017 8:19,9/27/2017 8:36,3078,Broadway & Roebling St,319,Fulton St & Broadway
-4060,172,9/27/2017 8:20,9/27/2017 8:22,387,Centre St & Chambers St,319,Fulton St & Broadway
-4061,347,9/27/2017 8:23,9/27/2017 8:29,268,Howard St & Centre St,319,Fulton St & Broadway
-4062,477,9/27/2017 8:26,9/27/2017 8:33,295,Pike St & E Broadway,319,Fulton St & Broadway
-4063,1130,9/27/2017 8:26,9/27/2017 8:45,3335,Union St & 4 Ave,319,Fulton St & Broadway
-4064,379,9/27/2017 8:26,9/27/2017 8:32,3002,South End Ave & Liberty St,319,Fulton St & Broadway
-4065,1078,9/27/2017 8:27,9/27/2017 8:45,356,Bialystoker Pl & Delancey St,319,Fulton St & Broadway
-4066,509,9/27/2017 8:28,9/27/2017 8:36,412,Forsyth St & Canal St,319,Fulton St & Broadway
-4067,1746,9/27/2017 8:28,9/27/2017 8:57,3319,14 St & 5 Ave,319,Fulton St & Broadway
-4068,285,9/27/2017 8:31,9/27/2017 8:36,360,William St & Pine St,319,Fulton St & Broadway
-4069,1277,9/27/2017 8:34,9/27/2017 8:55,323,Lawrence St & Willoughby St,319,Fulton St & Broadway
-4070,147,9/27/2017 8:37,9/27/2017 8:39,387,Centre St & Chambers St,319,Fulton St & Broadway
-4071,514,9/27/2017 8:38,9/27/2017 8:47,307,Canal St & Rutgers St,319,Fulton St & Broadway
-4072,828,9/27/2017 8:38,9/27/2017 8:52,403,E 2 St & 2 Ave,319,Fulton St & Broadway
-4073,1571,9/27/2017 8:38,9/27/2017 9:05,3095,Graham Ave & Herbert St,319,Fulton St & Broadway
-4074,1366,9/27/2017 8:39,9/27/2017 9:02,339,Avenue D & E 12 St,319,Fulton St & Broadway
-4075,175,9/27/2017 8:43,9/27/2017 8:46,152,Warren St & Church St,319,Fulton St & Broadway
-4076,1843,9/27/2017 8:43,9/27/2017 9:14,519,Pershing Square North,319,Fulton St & Broadway
-4077,1167,9/27/2017 8:43,9/27/2017 9:03,536,1 Ave & E 30 St,319,Fulton St & Broadway
-4078,1758,9/27/2017 8:44,9/27/2017 9:13,3041,Kingston Ave & Herkimer St,319,Fulton St & Broadway
-4079,1388,9/27/2017 8:47,9/27/2017 9:11,341,Stanton St & Mangin St,319,Fulton St & Broadway
-4080,311,9/27/2017 8:48,9/27/2017 8:53,386,Centre St & Worth St,319,Fulton St & Broadway
-4081,303,9/27/2017 8:48,9/27/2017 8:53,386,Centre St & Worth St,319,Fulton St & Broadway
-4082,768,9/27/2017 8:49,9/27/2017 9:02,238,Bank St & Washington St,319,Fulton St & Broadway
-4083,795,9/27/2017 8:51,9/27/2017 9:04,473,Rivington St & Chrystie St,319,Fulton St & Broadway
-4084,1521,9/27/2017 8:52,9/27/2017 9:17,3386,1 Pl & Clinton St,319,Fulton St & Broadway
-4085,732,9/27/2017 8:53,9/27/2017 9:05,251,Mott St & Prince St,319,Fulton St & Broadway
-4086,496,9/27/2017 8:56,9/27/2017 9:04,2009,Catherine St & Monroe St,319,Fulton St & Broadway
-4087,589,9/27/2017 8:58,9/27/2017 9:08,377,6 Ave & Canal St,319,Fulton St & Broadway
-4088,980,9/27/2017 9:03,9/27/2017 9:20,3427,Lafayette St & Jersey St,319,Fulton St & Broadway
-4089,1690,9/27/2017 9:04,9/27/2017 9:32,384,Fulton St & Washington Ave,319,Fulton St & Broadway
-4090,696,9/27/2017 9:04,9/27/2017 9:16,295,Pike St & E Broadway,319,Fulton St & Broadway
-4091,1117,9/27/2017 9:05,9/27/2017 9:23,3224,W 13 St & Hudson St,319,Fulton St & Broadway
-4092,1388,9/27/2017 9:10,9/27/2017 9:33,379,W 31 St & 7 Ave,319,Fulton St & Broadway
-4093,300,9/27/2017 9:12,9/27/2017 9:17,309,Murray St & West St,319,Fulton St & Broadway
-4094,332,9/27/2017 9:16,9/27/2017 9:22,2008,Little West St & 1 Pl,319,Fulton St & Broadway
-4095,572,9/27/2017 9:16,9/27/2017 9:26,2009,Catherine St & Monroe St,319,Fulton St & Broadway
-4096,504,9/27/2017 9:17,9/27/2017 9:26,363,West Thames St,319,Fulton St & Broadway
-4097,585,9/27/2017 9:43,9/27/2017 9:53,331,Pike St & Monroe St,319,Fulton St & Broadway
-4098,1432,9/27/2017 9:52,9/27/2017 10:16,3016,Kent Ave & N 7 St,319,Fulton St & Broadway
-4099,520,9/27/2017 9:55,9/27/2017 10:03,3435,Grand St & Elizabeth St,319,Fulton St & Broadway
-4100,512,9/27/2017 10:18,9/27/2017 10:26,360,William St & Pine St,319,Fulton St & Broadway
-4101,2037,9/27/2017 10:49,9/27/2017 11:23,484,W 44 St & 5 Ave,319,Fulton St & Broadway
-4102,1350,9/27/2017 11:09,9/27/2017 11:32,334,W 20 St & 7 Ave,319,Fulton St & Broadway
-4103,2528,9/27/2017 11:30,9/27/2017 12:12,3346,Berkeley Pl & 7 Ave,319,Fulton St & Broadway
-4104,1397,9/27/2017 11:35,9/27/2017 11:58,458,11 Ave & W 27 St,319,Fulton St & Broadway
-4105,836,9/27/2017 11:41,9/27/2017 11:55,307,Canal St & Rutgers St,319,Fulton St & Broadway
-4106,892,9/27/2017 11:43,9/27/2017 11:58,252,MacDougal St & Washington Sq,319,Fulton St & Broadway
-4107,1388,9/27/2017 11:49,9/27/2017 12:12,293,Lafayette St & E 8 St,319,Fulton St & Broadway
-4108,1563,9/27/2017 12:05,9/27/2017 12:31,497,E 17 St & Broadway,319,Fulton St & Broadway
-4109,402,9/27/2017 12:05,9/27/2017 12:12,387,Centre St & Chambers St,319,Fulton St & Broadway
-4110,824,9/27/2017 12:10,9/27/2017 12:23,249,Harrison St & Hudson St,319,Fulton St & Broadway
-4111,1281,9/27/2017 12:26,9/27/2017 12:48,474,5 Ave & E 29 St,319,Fulton St & Broadway
-4112,3592,9/27/2017 12:26,9/27/2017 13:26,3458,W 55 St & 6 Ave,319,Fulton St & Broadway
-4113,1263,9/27/2017 12:27,9/27/2017 12:49,382,University Pl & E 14 St,319,Fulton St & Broadway
-4114,610,9/27/2017 12:30,9/27/2017 12:40,357,E 11 St & Broadway,319,Fulton St & Broadway
-4115,305,9/27/2017 12:34,9/27/2017 12:39,386,Centre St & Worth St,319,Fulton St & Broadway
-4116,361,9/27/2017 12:36,9/27/2017 12:42,355,Bayard St & Baxter St,319,Fulton St & Broadway
-4117,1346,9/27/2017 12:59,9/27/2017 13:21,519,Pershing Square North,319,Fulton St & Broadway
-4118,423,9/27/2017 13:06,9/27/2017 13:13,315,South St & Gouverneur Ln,319,Fulton St & Broadway
-4119,396,9/27/2017 13:16,9/27/2017 13:23,257,Lispenard St & Broadway,319,Fulton St & Broadway
-4120,247,9/27/2017 13:20,9/27/2017 13:25,3002,South End Ave & Liberty St,319,Fulton St & Broadway
-4121,1401,9/27/2017 13:45,9/27/2017 14:09,546,E 30 St & Park Ave S,319,Fulton St & Broadway
-4122,233,9/27/2017 14:00,9/27/2017 14:04,264,Maiden Ln & Pearl St,319,Fulton St & Broadway
-4123,323,9/27/2017 14:04,9/27/2017 14:10,3002,South End Ave & Liberty St,319,Fulton St & Broadway
-4124,309,9/27/2017 14:19,9/27/2017 14:24,337,Old Slip & Front St,319,Fulton St & Broadway
-4125,2444,9/27/2017 14:31,9/27/2017 15:12,319,Fulton St & Broadway,319,Fulton St & Broadway
-4126,791,9/27/2017 14:35,9/27/2017 14:48,350,Clinton St & Grand St,319,Fulton St & Broadway
-4127,582,9/27/2017 14:44,9/27/2017 14:54,331,Pike St & Monroe St,319,Fulton St & Broadway
-4128,426,9/27/2017 14:45,9/27/2017 14:52,360,William St & Pine St,319,Fulton St & Broadway
-4129,326,9/27/2017 14:59,9/27/2017 15:04,427,Bus Slip & State St,319,Fulton St & Broadway
-4130,1295,9/27/2017 15:04,9/27/2017 15:26,497,E 17 St & Broadway,319,Fulton St & Broadway
-4131,1170,9/27/2017 15:12,9/27/2017 15:31,502,Henry St & Grand St,319,Fulton St & Broadway
-4132,350,9/27/2017 15:13,9/27/2017 15:18,151,Cleveland Pl & Spring St,319,Fulton St & Broadway
-4133,741,9/27/2017 15:14,9/27/2017 15:27,349,Rivington St & Ridge St,319,Fulton St & Broadway
-4134,241,9/27/2017 15:20,9/27/2017 15:24,387,Centre St & Chambers St,319,Fulton St & Broadway
-4135,662,9/27/2017 15:21,9/27/2017 15:32,3427,Lafayette St & Jersey St,319,Fulton St & Broadway
-4136,1974,9/27/2017 15:21,9/27/2017 15:54,257,Lispenard St & Broadway,319,Fulton St & Broadway
-4137,1956,9/27/2017 15:21,9/27/2017 15:54,257,Lispenard St & Broadway,319,Fulton St & Broadway
-4138,921,9/27/2017 15:27,9/27/2017 15:42,229,Great Jones St,319,Fulton St & Broadway
-4139,652,9/27/2017 15:32,9/27/2017 15:43,392,Jay St & Tech Pl,319,Fulton St & Broadway
-4140,1024,9/27/2017 15:36,9/27/2017 15:53,242,Carlton Ave & Flushing Ave,319,Fulton St & Broadway
-4141,1102,9/27/2017 15:58,9/27/2017 16:16,380,W 4 St & 7 Ave S,319,Fulton St & Broadway
-4142,899,9/27/2017 15:58,9/27/2017 16:13,319,Fulton St & Broadway,319,Fulton St & Broadway
-4143,633,9/27/2017 16:00,9/27/2017 16:11,128,MacDougal St & Prince St,319,Fulton St & Broadway
-4144,368,9/27/2017 16:09,9/27/2017 16:16,257,Lispenard St & Broadway,319,Fulton St & Broadway
-4145,564,9/27/2017 16:22,9/27/2017 16:31,331,Pike St & Monroe St,319,Fulton St & Broadway
-4146,2091,9/27/2017 16:24,9/27/2017 16:58,3399,7 St & 3 Ave,319,Fulton St & Broadway
-4147,290,9/27/2017 16:25,9/27/2017 16:30,3436,Greenwich St & Hubert St,319,Fulton St & Broadway
-4148,600,9/27/2017 16:29,9/27/2017 16:39,3427,Lafayette St & Jersey St,319,Fulton St & Broadway
-4149,301,9/27/2017 16:32,9/27/2017 16:37,351,Front St & Maiden Ln,319,Fulton St & Broadway
-4150,699,9/27/2017 16:39,9/27/2017 16:51,363,West Thames St,319,Fulton St & Broadway
-4151,369,9/27/2017 16:49,9/27/2017 16:56,304,Broadway & Battery Pl,319,Fulton St & Broadway
-4152,276,9/27/2017 16:50,9/27/2017 16:55,330,Reade St & Broadway,319,Fulton St & Broadway
-4153,305,9/27/2017 16:50,9/27/2017 16:55,330,Reade St & Broadway,319,Fulton St & Broadway
-4154,741,9/27/2017 16:51,9/27/2017 17:03,531,Forsyth St & Broome St,319,Fulton St & Broadway
-4155,422,9/27/2017 16:57,9/27/2017 17:04,276,Duane St & Greenwich St,319,Fulton St & Broadway
-4156,657,9/27/2017 16:57,9/27/2017 17:08,307,Canal St & Rutgers St,319,Fulton St & Broadway
-4157,363,9/27/2017 16:57,9/27/2017 17:03,304,Broadway & Battery Pl,319,Fulton St & Broadway
-4158,522,9/27/2017 17:01,9/27/2017 17:10,355,Bayard St & Baxter St,319,Fulton St & Broadway
-4159,393,9/27/2017 17:03,9/27/2017 17:09,427,Bus Slip & State St,319,Fulton St & Broadway
-4160,1438,9/27/2017 17:05,9/27/2017 17:29,473,Rivington St & Chrystie St,319,Fulton St & Broadway
-4161,623,9/27/2017 17:13,9/27/2017 17:23,315,South St & Gouverneur Ln,319,Fulton St & Broadway
-4162,405,9/27/2017 17:20,9/27/2017 17:27,315,South St & Gouverneur Ln,319,Fulton St & Broadway
-4163,179,9/27/2017 17:27,9/27/2017 17:30,306,Cliff St & Fulton St,319,Fulton St & Broadway
-4164,174,9/27/2017 17:27,9/27/2017 17:30,376,John St & William St,319,Fulton St & Broadway
-4165,2103,9/27/2017 17:35,9/27/2017 18:10,462,W 22 St & 10 Ave,319,Fulton St & Broadway
-4166,317,9/27/2017 17:35,9/27/2017 17:41,415,Pearl St & Hanover Square,319,Fulton St & Broadway
-4167,359,9/27/2017 17:42,9/27/2017 17:48,415,Pearl St & Hanover Square,319,Fulton St & Broadway
-4168,366,9/27/2017 17:44,9/27/2017 17:50,260,Broad St & Bridge St,319,Fulton St & Broadway
-4169,324,9/27/2017 17:44,9/27/2017 17:50,257,Lispenard St & Broadway,319,Fulton St & Broadway
-4170,283,9/27/2017 17:46,9/27/2017 17:50,351,Front St & Maiden Ln,319,Fulton St & Broadway
-4171,150,9/27/2017 17:56,9/27/2017 17:58,319,Fulton St & Broadway,319,Fulton St & Broadway
-4172,449,9/27/2017 18:00,9/27/2017 18:07,427,Bus Slip & State St,319,Fulton St & Broadway
-4173,648,9/27/2017 18:01,9/27/2017 18:12,534,Water - Whitehall Plaza,319,Fulton St & Broadway
-4174,1147,9/27/2017 18:02,9/27/2017 18:21,435,W 21 St & 6 Ave,319,Fulton St & Broadway
-4175,1421,9/27/2017 18:05,9/27/2017 18:28,491,E 24 St & Park Ave S,319,Fulton St & Broadway
-4176,1225,9/27/2017 18:06,9/27/2017 18:26,525,W 34 St & 11 Ave,319,Fulton St & Broadway
-4177,535,9/27/2017 18:07,9/27/2017 18:16,361,Allen St & Hester St,319,Fulton St & Broadway
-4178,547,9/27/2017 18:10,9/27/2017 18:19,307,Canal St & Rutgers St,319,Fulton St & Broadway
-4179,347,9/27/2017 18:10,9/27/2017 18:16,534,Water - Whitehall Plaza,319,Fulton St & Broadway
-4180,1384,9/27/2017 18:11,9/27/2017 18:34,433,E 13 St & Avenue A,319,Fulton St & Broadway
-4181,1436,9/27/2017 18:12,9/27/2017 18:36,379,W 31 St & 7 Ave,319,Fulton St & Broadway
-4182,739,9/27/2017 18:27,9/27/2017 18:39,307,Canal St & Rutgers St,319,Fulton St & Broadway
-4183,428,9/27/2017 18:27,9/27/2017 18:35,79,Franklin St & W Broadway,319,Fulton St & Broadway
-4184,2352,9/27/2017 18:29,9/27/2017 19:09,281,Grand Army Plaza & Central Park S,319,Fulton St & Broadway
-4185,1637,9/27/2017 18:32,9/27/2017 18:59,453,W 22 St & 8 Ave,319,Fulton St & Broadway
-4186,388,9/27/2017 18:41,9/27/2017 18:47,427,Bus Slip & State St,319,Fulton St & Broadway
-4187,1165,9/27/2017 18:44,9/27/2017 19:03,439,E 4 St & 2 Ave,319,Fulton St & Broadway
-4188,817,9/27/2017 18:46,9/27/2017 19:00,357,E 11 St & Broadway,319,Fulton St & Broadway
-4189,1592,9/27/2017 18:47,9/27/2017 19:13,2012,E 27 St & 1 Ave,319,Fulton St & Broadway
-4190,762,9/27/2017 18:47,9/27/2017 19:00,350,Clinton St & Grand St,319,Fulton St & Broadway
-4191,401,9/27/2017 18:52,9/27/2017 18:59,304,Broadway & Battery Pl,319,Fulton St & Broadway
-4192,347,9/27/2017 19:01,9/27/2017 19:07,304,Broadway & Battery Pl,319,Fulton St & Broadway
-4193,610,9/27/2017 19:02,9/27/2017 19:12,337,Old Slip & Front St,319,Fulton St & Broadway
-4194,711,9/27/2017 19:04,9/27/2017 19:16,151,Cleveland Pl & Spring St,319,Fulton St & Broadway
-4195,1224,9/27/2017 19:30,9/27/2017 19:51,502,Henry St & Grand St,319,Fulton St & Broadway
-4196,1563,9/27/2017 19:52,9/27/2017 20:18,3232,Bond St & Fulton St,319,Fulton St & Broadway
-4197,269,9/27/2017 19:58,9/27/2017 20:03,279,Peck Slip & Front St,319,Fulton St & Broadway
-4198,469,9/27/2017 19:59,9/27/2017 20:06,151,Cleveland Pl & Spring St,319,Fulton St & Broadway
-4199,465,9/27/2017 20:02,9/27/2017 20:10,328,Watts St & Greenwich St,319,Fulton St & Broadway
-4200,1198,9/27/2017 20:10,9/27/2017 20:30,355,Bayard St & Baxter St,319,Fulton St & Broadway
-4201,1461,9/27/2017 20:24,9/27/2017 20:49,323,Lawrence St & Willoughby St,319,Fulton St & Broadway
-4202,736,9/27/2017 20:43,9/27/2017 20:55,335,Washington Pl & Broadway,319,Fulton St & Broadway
-4203,1707,9/27/2017 21:01,9/27/2017 21:29,398,Atlantic Ave & Furman St,319,Fulton St & Broadway
-4204,2225,9/27/2017 22:15,9/27/2017 22:52,3108,Nassau Ave & Russell St,319,Fulton St & Broadway
-4205,986,9/27/2017 22:37,9/27/2017 22:53,368,Carmine St & 6 Ave,319,Fulton St & Broadway
-4206,901,9/27/2017 22:37,9/27/2017 22:52,398,Atlantic Ave & Furman St,319,Fulton St & Broadway
-4207,1320,9/27/2017 22:55,9/27/2017 23:17,264,Maiden Ln & Pearl St,319,Fulton St & Broadway
-4208,1338,9/27/2017 22:59,9/27/2017 23:21,526,E 33 St & 5 Ave,319,Fulton St & Broadway
-4209,1366,9/27/2017 23:15,9/27/2017 23:38,321,Cadman Plaza E & Red Cross Pl,319,Fulton St & Broadway
-4210,831,9/27/2017 23:30,9/27/2017 23:44,368,Carmine St & 6 Ave,319,Fulton St & Broadway
+startstation,endstation,count,totaltime
+1 Ave & E 30 St,Fulton St & Broadway,1,1167
+1 Pl & Clinton St,Fulton St & Broadway,1,1521
+11 Ave & W 27 St,Fulton St & Broadway,1,1397
+14 St & 5 Ave,Fulton St & Broadway,1,1746
+5 Ave & E 29 St,Fulton St & Broadway,1,1281
+6 Ave & Canal St,Fulton St & Broadway,1,589
+7 St & 3 Ave,Fulton St & Broadway,1,2091
+8 Ave & W 31 St,Fulton St & Broadway,1,1472
+Allen St & Hester St,Fulton St & Broadway,1,535
+Atlantic Ave & Furman St,Fulton St & Broadway,2,2608
+Avenue D & E 12 St,Fulton St & Broadway,1,1366
+Bank St & Hudson St,Fulton St & Broadway,1,1256
+Bank St & Washington St,Fulton St & Broadway,1,768
+Bayard St & Baxter St,Fulton St & Broadway,3,2081
+Berkeley Pl & 7 Ave,Fulton St & Broadway,1,2528
+Bialystoker Pl & Delancey St,Fulton St & Broadway,1,1078
+Bond St & Fulton St,Fulton St & Broadway,1,1563
+Broad St & Bridge St,Fulton St & Broadway,1,366
+Broadway & Battery Pl,Fulton St & Broadway,4,1480
+Broadway & Roebling St,Fulton St & Broadway,1,1030
+Bus Slip & State St,Fulton St & Broadway,4,1556
+Cadman Plaza E & Red Cross Pl,Fulton St & Broadway,1,1366
+Canal St & Rutgers St,Fulton St & Broadway,5,3293
+Carlton Ave & Flushing Ave,Fulton St & Broadway,1,1024
+Carmine St & 6 Ave,Fulton St & Broadway,2,1817
+Catherine St & Monroe St,Fulton St & Broadway,3,1475
+Centre St & Chambers St,Fulton St & Broadway,4,962
+Centre St & Worth St,Fulton St & Broadway,3,919
+Cleveland Pl & Spring St,Fulton St & Broadway,3,1530
+Cliff St & Fulton St,Fulton St & Broadway,3,547
+Clinton St & Grand St,Fulton St & Broadway,3,2322
+Congress St & Clinton St,Fulton St & Broadway,1,830
+Duane St & Greenwich St,Fulton St & Broadway,1,422
+E 11 St & Broadway,Fulton St & Broadway,2,1427
+E 13 St & Avenue A,Fulton St & Broadway,1,1384
+E 17 St & Broadway,Fulton St & Broadway,2,2858
+E 2 St & 2 Ave,Fulton St & Broadway,3,2197
+E 24 St & Park Ave S,Fulton St & Broadway,1,1421
+E 27 St & 1 Ave,Fulton St & Broadway,1,1592
+E 30 St & Park Ave S,Fulton St & Broadway,1,1401
+E 33 St & 5 Ave,Fulton St & Broadway,1,1338
+E 4 St & 2 Ave,Fulton St & Broadway,1,1165
+E 51 St & 1 Ave,Fulton St & Broadway,1,2098
+E 55 St & 2 Ave,Fulton St & Broadway,1,1547
+Forsyth St & Broome St,Fulton St & Broadway,1,741
+Forsyth St & Canal St,Fulton St & Broadway,1,509
+Franklin St & W Broadway,Fulton St & Broadway,1,428
+Front St & Maiden Ln,Fulton St & Broadway,4,1149
+Fulton St & Broadway,Fulton St & Broadway,3,3493
+Fulton St & Washington Ave,Fulton St & Broadway,1,1690
+Graham Ave & Herbert St,Fulton St & Broadway,1,1571
+Grand Army Plaza & Central Park S,Fulton St & Broadway,1,2352
+Grand St & Elizabeth St,Fulton St & Broadway,2,964
+Great Jones St,Fulton St & Broadway,1,921
+Greenwich St & Hubert St,Fulton St & Broadway,2,694
+Harrison St & Hudson St,Fulton St & Broadway,1,824
+Henry St & Grand St,Fulton St & Broadway,3,3300
+Howard St & Centre St,Fulton St & Broadway,1,347
+Jay St & Tech Pl,Fulton St & Broadway,1,652
+John St & William St,Fulton St & Broadway,1,174
+Kent Ave & N 7 St,Fulton St & Broadway,1,1432
+Kingston Ave & Herkimer St,Fulton St & Broadway,1,1758
+Lafayette St & E 8 St,Fulton St & Broadway,1,1388
+Lafayette St & Jersey St,Fulton St & Broadway,3,2242
+Lawrence St & Willoughby St,Fulton St & Broadway,2,2738
+Lispenard St & Broadway,Fulton St & Broadway,5,5018
+Little West St & 1 Pl,Fulton St & Broadway,1,332
+MacDougal St & Prince St,Fulton St & Broadway,1,633
+MacDougal St & Washington Sq,Fulton St & Broadway,1,892
+Madison Ave & E 82 St,Fulton St & Broadway,1,1847
+Maiden Ln & Pearl St,Fulton St & Broadway,3,1774
+Mott St & Prince St,Fulton St & Broadway,1,732
+Murray St & West St,Fulton St & Broadway,2,500
+Nassau Ave & Russell St,Fulton St & Broadway,1,2225
+Old Slip & Front St,Fulton St & Broadway,2,919
+Pearl St & Hanover Square,Fulton St & Broadway,2,676
+Peck Slip & Front St,Fulton St & Broadway,1,269
+Pershing Square North,Fulton St & Broadway,3,4643
+Pike St & E Broadway,Fulton St & Broadway,2,1173
+Pike St & Monroe St,Fulton St & Broadway,4,2358
+Reade St & Broadway,Fulton St & Broadway,2,581
+Rivington St & Chrystie St,Fulton St & Broadway,2,2233
+Rivington St & Ridge St,Fulton St & Broadway,1,741
+South End Ave & Liberty St,Fulton St & Broadway,3,949
+South St & Gouverneur Ln,Fulton St & Broadway,3,1451
+St Marks Pl & 2 Ave,Fulton St & Broadway,1,719
+Stanton St & Mangin St,Fulton St & Broadway,1,1388
+Union St & 4 Ave,Fulton St & Broadway,1,1130
+University Pl & E 14 St,Fulton St & Broadway,1,1263
+Vesey Pl & River Terrace,Fulton St & Broadway,1,709
+W 13 St & Hudson St,Fulton St & Broadway,1,1117
+W 15 St & 7 Ave,Fulton St & Broadway,1,835
+W 20 St & 7 Ave,Fulton St & Broadway,1,1350
+W 21 St & 6 Ave,Fulton St & Broadway,1,1147
+W 22 St & 10 Ave,Fulton St & Broadway,1,2103
+W 22 St & 8 Ave,Fulton St & Broadway,1,1637
+W 31 St & 7 Ave,Fulton St & Broadway,2,2824
+W 34 St & 11 Ave,Fulton St & Broadway,1,1225
+W 4 St & 7 Ave S,Fulton St & Broadway,2,1863
+W 44 St & 5 Ave,Fulton St & Broadway,1,2037
+W 55 St & 6 Ave,Fulton St & Broadway,1,3592
+Warren St & Church St,Fulton St & Broadway,1,175
+Washington Pl & Broadway,Fulton St & Broadway,1,736
+Water - Whitehall Plaza,Fulton St & Broadway,2,995
+Watts St & Greenwich St,Fulton St & Broadway,1,465
+West End Ave & W 94 St,Fulton St & Broadway,1,1625
+West Thames St,Fulton St & Broadway,2,1203
+William St & Pine St,Fulton St & Broadway,3,1223
+Willoughby St & Fleet St,Fulton St & Broadway,1,1123
