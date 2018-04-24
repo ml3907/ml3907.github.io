@@ -8,6 +8,7 @@ function setup() {
   createCanvas(1280, 3000);
   background(255);
   noStroke();
+  loadData();
 
   sel = createSelect();
   sel.position(10, 10);
