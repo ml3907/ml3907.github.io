@@ -1,3 +1,4 @@
+//next to do: insert citibike logo/image
 //define variables
 var table1; 
 var table2;
@@ -17,6 +18,7 @@ var rectwidth1, rectwidth2, rectwidth3, rectwidth4, rectwidth5, rectwidth6;
 var minNameLen1, maxNameLen1, minNameLen2, maxNameLen2, minNameLen3, maxNameLen3;
 var minNameLen4, maxNameLen4, minNameLen5, maxNameLen5, minNameLen6, maxNameLen6;
 
+var sel, item;
 //define constants
 var state = 0;
 var docks3164 = 67;
@@ -44,56 +46,38 @@ function preload() {
 function setup() {
   createCanvas(1280, 3500);
   loadData();
-
-  button = createButton('Uptown');
-  button.mousePressed(Uptown);
-  button.position(50, 100);
-
-  button = createButton('Midtown');
-  button.mousePressed(Midtown);
-  button.position(150, 100);
-
-  button = createButton('Downtown');
-  button.mousePressed(Downtown);
-  button.position(250, 100);
+  
+  sel = createSelect();
+  sel.position(50, 100);
+  sel.option(" ");
+  sel.option("Uptown");
+  sel.option("Midtown");
+  sel.option("Downtown");
+  sel.changed(mySelectEvent);
 }
 
-function Uptown() {
-  if (state == 1) {
-    state = 0;
-  } else {
+function mySelectEvent() {
+  item = sel.value();
+  if (item == "Uptown") {
     state = 1;
-  }
-}
-
-function Midtown() {
-  if (state == 2) {
-    state = 0;
-  } else {
+    clear();
+  } else if (item == "Midtown") {
     state = 2;
+    clear();
+  } else if (item == "Downtown") {
+    state = 3;
+    clear();
   }
 }
 
-function Downtown() {
-  if (state == 3) {
-    state = 0;
-  } else {
-    state = 3;
-  }
-}
 
 function draw() {
   background(255);
-
   if (state == 1) {
     drawUptown();
-  }
-
-  if (state == 2) {
+  } else if (state == 2) {
     drawMidtown();
-  }
-
-  if (state == 3) {
+  } else if (state == 3) {
     drawDowntown();
   }
   
@@ -115,7 +99,7 @@ function draw() {
   }
   //console.log(minNameLen1);
   for (var i = 0; i < count2.length; i++) {
-    rectwidth2 = map(startname2[i].length,minNameLen2, maxNameLen2, 100, 250);
+    rectwidth2 = map(startname2[i].length,minNameLen2, maxNameLen2, 80, 200);
     if (!maxNameLen2) {
       maxNameLen2 = startname2[i].length;
     } else if (startname2[i].length > maxNameLen2) {
@@ -130,7 +114,7 @@ function draw() {
   }
 
   // Midtown
-  for (var i = 0; i < count1.length; i++) {
+  for (var i = 0; i < count3.length; i++) {
     rectwidth3 = map(endname3[i].length,minNameLen3, maxNameLen3, 80, 200);
     if (!maxNameLen3) {
       maxNameLen3 = endname3[i].length;
@@ -223,7 +207,7 @@ function drawUptown() {
 
         fill(30, 136, 229);
         textSize(12);
-        text(count1[i]+ "rides end here", mouseX+rectwidth1, mouseY);
+        text(count1[i]+ " rides end here", mouseX+rectwidth1, 50+lineheight*i);
       } else {
         fill("grey");
         textSize(12);
@@ -244,17 +228,31 @@ function drawUptown() {
   }
   pop();
 
-  for (var j = 0; j <= count2.length; j++) {
+  push();
+  for (var j = 0; j < count2.length; j++) {
     if (count2[j] > 1) {
-      fill("grey");
-      noStroke();
-      text(startname2[j], starttext2, 100+lineheight*j);
+      if (mouseX > starttext2 && mouseX < starttext2+180 && mouseY > 100+lineheight*j+(-1*rectheight) && mouseY < 100+lineheight*j) {
+        fill(0);
+        textSize(14);
+        text(startname2[j], starttext2, 100+lineheight*j);
+
+        fill(30, 136, 229);
+        textSize(12);
+        text(count2[j]+ " rides start here", mouseX-rectwidth2, 100+lineheight*j);
+      } else {
+        fill("grey");
+        noStroke();
+        textSize(12);
+        text(startname2[j], starttext2, 100+lineheight*j);
+      }
     }
   }
+  pop();
 
   push();
-  fill(150);
-  rect(mid, 300, 10, 500);
+  fill(30, 136, 229);
+  noStroke();
+  rect(mid, 440, 10, 260);
   fill(21, 101, 192);
   text("Columbus Ave. W 72 St", stationx+50, stationy);
   text("67", stationx+80, stationy+20);
@@ -264,8 +262,6 @@ function drawUptown() {
   text("257 ", stationx+180, stationy+100);
   pop();
 }
-  //mouse interaction: can move to draw function?
-
 
 //need to change the 系数
 function drawMidtown() {
@@ -291,7 +287,7 @@ function drawMidtown() {
 
         fill(30, 136, 229);
         textSize(12);
-        text(count3[i]+ "rides end here", mouseX+rectwidth3, mouseY);
+        text(count3[i]+ " rides end here", mouseX+rectwidth3, mouseY);
       } else {
         fill("grey");
         textSize(12);
@@ -302,6 +298,7 @@ function drawMidtown() {
   pop();
 
     //trips that end at id3255
+  push();
   for (var j = 0; j <= count4.length; j++) {
     if (count4[j] > 1) {
       stroke(3, 169, 244);
@@ -309,18 +306,33 @@ function drawMidtown() {
       line(mid-300, 100+lineheight*j, mid, 800+5*j);
     }
   }
+  pop();
 
-  for (var j = 0; j <= count4.length; j++) {
+  push();
+  for (var j = 0; j < count4.length; j++) {
     if (count4[j] > 1) {
-      fill("grey");
-      noStroke();
-      text(startname4[j], starttext2, 100+lineheight*j);
+      if (mouseX > starttext2 && mouseX < starttext2+180 && mouseY > 100+lineheight*j+(-1*rectheight) && mouseY < 100+lineheight*j) {
+        fill(0);
+        textSize(14);
+        text(startname4[j], starttext2, 100+lineheight*j);
+
+        fill(30, 136, 229);
+        textSize(12);
+        text(count4[j]+ " rides start here", mouseX-rectwidth4, 100+lineheight*j);
+      } else {
+        fill("grey");
+        noStroke();
+        textSize(12);
+        text(startname4[j], starttext2, 100+lineheight*j);
+      }
     }
   }
+  pop();
 
   push();
   fill(30, 136, 229);
-  rect(mid, 700, 10, 1500);
+  noStroke();
+  rect(mid, 770, 10, 1320);
   fill(21, 101, 192);
   text("8 Ave. W 31 St", stationx+50, stationy);
   text("19", stationx+80, stationy+20);
@@ -365,6 +377,7 @@ function drawDowntown() {
   pop();
 
 //trips that end at id319
+  push();
   for (var j = 0; j <= count6.length; j++) {
     if (count6[j] > 1) {
       stroke(3, 169, 244);
@@ -372,18 +385,32 @@ function drawDowntown() {
       line(mid-300, 100+lineheight*j, mid, 500+2*j);
     }
   }
-
-  for (var j = 0; j <= count6.length; j++) {
-    if (count6[j] > 1) {
-      fill("grey");
-      noStroke();
-      text(startname6[j], starttext2, 100+lineheight*j);
-    }
-  }
+  pop();
 
   push();
-  fill(150);
-  rect(mid, 400, 10, 500);
+  for (var j = 0; j < count6.length; j++) {
+    if (count6[j] > 1) {
+      if (mouseX > starttext2 && mouseX < starttext2+180 && mouseY > 100+lineheight*j+(-1*rectheight) && mouseY < 100+lineheight*j) {
+        fill(0);
+        textSize(14);
+        text(startname6[j], starttext2, 100+lineheight*j);
+
+        fill(30, 136, 229);
+        textSize(12);
+        text(count6[j]+ " rides start here", mouseX-rectwidth6, 100+lineheight*j);
+      } else {
+        fill("grey");
+        noStroke();
+        text(startname6[j], starttext2, 100+lineheight*j);
+      }
+    }
+  }
+  pop();
+
+  push();
+  fill(30, 136, 229);
+  noStroke();
+  rect(mid, 490, 10, 230);
   fill(21, 101, 192);
   text("Station: Fulton St & Broadway", stationx, stationy);
   text("33", stationx+80, stationy+20);
