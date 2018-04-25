@@ -1,19 +1,39 @@
 <html>
   <head>
-  	<style>
-  	h3 {
-        background-color: #ccc;
-        margin: 10px;
-        padding: 10px;
-    }
-  	</style>
-
-    <title>Trip Route Visualization</title>
+    <title>A7.3: Final Project</title>
+    <link href="style/style.css" rel="stylesheet" type="text/css"/>
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
     <script src="p5.min.js"></script>
     <script src="p5.dom.min.js"></script>
-    <script src="sketch2.js"></script>
   </head>
-   <body>
-     <h3><strong>Visualizing the Supply and Demand of CitiBike</strong></h3>
+  <body>
+    <h3><strong>Visualizing the Supply and Demand of CitiBike</strong></h3>
+    <p><strong>BACKGROUND</strong></p>
+    <p>- The expansion of Citibike stations<br>
+       - The challenge of rebalancing Citibikes<br>
+       - High demand in rush hour and summer<br> 
+       - Past research: relationship between Citibike ridership and neighborhood demographics based on cencus tracts</p>
+    <p><strong>PRELIMINARY IDEAS</strong></p>
+    <p>- Visualize the ridership change in a day.<br>
+       - Where do bikes come and go? Which is the popular station?<br>
+       - What is the supply and demand of each CitiBike station?<br>
+    <p><strong>DATA EXPLORATION</strong></p>
+    <p>I used the CitiBike trip history data in September, 2017. There are Over 30,000 rows of data for one days. To further explore the data and find more interesting point, I made several sketches by using the one-day data of one station. However, there are already many project and research that focus on the CitiBike ridership visualization, whether by tracing and mapping the routes of all the rides, or by analyzing the ridership characteristics in different time and weather conditions.</p>
+    <p><img src="excel.jpg", width=35%><img src="R.jpg", width=50%></p>
+    <p><strong>VISUALIZATION DESIGN</strong></p>
+    <p>Here, I want to find some visualization other than maps to display both supply and demand at the CitiBike stations. I abandon part of the first idea as the time change is already generally accepted by people, and keep the idea of demand and supply ratio.<br> 
+    Finally, I decided to use the design idea of Sankey chart. The logic of Sankey chart is to show a flowchart for the upstream and downstream connections between different elements. There are no repeated elements on both sides. I wanted to draw different lines that start from the different station and end at selected station A to show the bikes that comes to station A. Then, draw another set of shapes from station A and end at different end stations to show the bikes that leave from station A. The width of the shape represents the number of rides (the visualization ignores the rides less than one trip). Meanwhile, the blue rectangle in the center represent the total docks at this station.</p>
+    <p>Sketches:</p>
+    <p><img src="ratio.jpg", width=35%><img src="sankey.jpg", width=30%><img src="sankey2.jpg", width=30%></p>
+    <p><strong>PROCESS</strong></p>
+    <p>As the dataset for CitiBike is too large, I decided to select several stations and use their one-day ridership data. One station is Columbus Ave. 72th St., located near Central Park in a residential neighborhood in Uptown. It also has the largest number of total docks at the station. Second station is 8th Ave. 31st St. in Midtown, which is a popular site for tourists. Third station is Fulton St. Broadway in Downtown. I try to use these three stations as representatives of typical locations in NYC. The output can show the ridership patterns in residential area, tourism area, and office area.</p>
+    <p>Project Development Process:</p>
+    <p><img src="process.jpg", width=60%></p>
+    <p><strong>FINDINGS</strong></p>
+    <p><strong>FUTURE DIRECTION</strong></p>
+    <p>- Do more stations.<br>
+       - Add curves to each line.<br>
+       - Use map as a supplimentary visualization for the findings?</p>  
+    <p><a href="7.3 visualization/index.html">See the final visualization for selected stations.</a><br></p>
   </body>
 </html>
