@@ -48,11 +48,11 @@ function setup() {
   createCanvas(1300, 3500);
   loadData();
   button = createButton('Weekday/Weekdend');
-  button.position(50, 120);
+  button.position(50, 130);
   button.mousePressed(changeday);
   
   sel = createSelect();
-  sel.position(50, 80);
+  sel.position(50, 90);
   sel.option("SELECT");
   sel.option("Uptown");
   sel.option("...72nd Street");
