@@ -13,7 +13,7 @@ function preload() {
 
 function setup() {
   createCanvas(window.innerWidth, 1000);
-  background(0);
+  background(255);
 
   textSize(12);
   textAlign(LEFT);
@@ -23,7 +23,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(255);
 
   // Set the left and top margin
   var margin = 30;
@@ -32,12 +32,14 @@ function draw() {
   var lineheight = 30;
   var rectheight = 12;
 
+  noStroke();
+
   for (var i = 0; i < headlines.length; i++) {
     var rectwidth = map(headlines[i].length,minHeadLen, maxHeadLen, margin, width-margin*2);
     noFill();
     rect(0, i*lineheight, rectwidth, -1*rectheight)
     
-    fill(255);
+    fill(0);
     textSize(12);
     textStyle(NORMAL);
     text(i+1 + ".", 200 , i*lineheight);    
@@ -56,12 +58,12 @@ function draw() {
   //highlight the title when mouse move over the title
   for (var i = 0; i < headlines.length; i++) {
     if (mouseX > margin && mouseX < margin+rectwidth && mouseY < margin+i*lineheight && mouseY > margin+i*lineheight+(-1*rectheight)) {
-        fill(255, 138, 51)
+        fill(203, 67, 53)
         textSize(16);
         textStyle(ITALIC);
         text(headlines[i], 220 , i*lineheight);
     } else {
-        fill(255);
+        fill(0);
         textSize(12);
         textStyle(NORMAL);
         text(headlines[i], 230 , i*lineheight);
@@ -74,7 +76,7 @@ function draw() {
     // show abstract on mouseover and pressed
     if (mouseX > margin && mouseX < margin+rectwidth && mouseY < margin+i*lineheight && mouseY > margin+i*lineheight+(-1*rectheight)) {
       if (mouseIsPressed) {
-        fill(255, 200, 30);
+        fill(255, 200, 30); 
         textSize(18);
         textStyle(ITALIC);
         text("Abstract: " + abstracts[i], 700, mouseY-15, 450 , 150);

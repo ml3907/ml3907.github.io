@@ -7,9 +7,8 @@ function setup() {
 	createCanvas(window.innerWidth, window.innerHeight);
 }
 
-
 function draw() {
-	background(0);
+	background(255);
 	for (i = 0; i <= hour.length; i++) {
 		if (hour() < 12) {
 			a = -5;
@@ -68,9 +67,11 @@ class Particle {
 	}
 
 	show() {
+		push();
 		noStroke();
-		fill(220,this.lifespan);
+		fill(211, 84,0,this.lifespan);
 		ellipse(this.x, this.y, 15);
+		pop();
 	}
 	//console.log(particles.length);
 

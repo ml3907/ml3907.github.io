@@ -28,7 +28,7 @@ function preload() {
 
 function setup() {
   createCanvas(window.innerWidth, 1000);
-  background(0);
+  background(255);
 
   textAlign(LEFT);
   textFont('Helvetica');
@@ -39,8 +39,6 @@ function setup() {
 }
 
 function draw() {
-  background(0);
-
   var lineheight = 24;
   var margin = 40;
   translate(margin, margin);
@@ -54,13 +52,13 @@ function draw() {
     for (var j = 0; j < words.length; j++) {
       if (hitwords.includes(words[j])) {
         textSize(18);
-        stroke(255);
+        stroke(230);
         strokeWeight(3);
-        fill(255, 138, 51);
+        fill(203, 67, 53);
       } else {
         textSize(12);
         noStroke();
-        fill(125+(j*15));
+        fill(200-j*15);
       }
 
       text(words[j]+' ', nextX, i*lineheight);

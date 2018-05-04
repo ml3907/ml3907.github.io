@@ -10,8 +10,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(window.innerWidth, 1000);
-  background(0);
+  createCanvas(window.innerWidth, window.innerHeight);
+  background(255);
 
   textSize(12);
   textAlign(LEFT);
@@ -25,15 +25,13 @@ function setup() {
 }
 
 function draw() {
-  background(0);
-
   var lineheight = 24;
   var margin = 30;
   translate(margin, margin);
 
   //display the titles
   for (var i = 0; i < 27; i++) {
-    fill(255);
+    fill(0);
     text(i+1 + ".", 0 , i*lineheight*1.5);
     if (i < 9) {
       text(headlines[i], 20 , i*lineheight*1.5);
@@ -45,7 +43,7 @@ function draw() {
 
   //display the date
   for (var j = 0; j < dates.length; j++) {
-    fill(255);
+    fill(0);
     text(dates[j], 400 , j*lineheight*1.5);
   }
 }
